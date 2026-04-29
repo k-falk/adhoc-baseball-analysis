@@ -17,7 +17,9 @@ python3 scripts/06_team_savant.py        # savant batter data by year
 python3 scripts/07_team_statcast.py      # team xwOBA/xSLG
 python3 scripts/08_situational.py        # RISP and other splits
 python3 scripts/09_departures_adds.py    # roster churn
-python3 scripts/10_charts.py             # generate 7 charts
+python3 scripts/10_charts.py             # generate audit charts
+python3 scripts/11_pull_air.py           # compute Pulled-Air% from events
+python3 scripts/12_four_tool.py          # 4-D composite + viz
 ```
 
 Outputs: `data/*.csv` and `charts/*.png`.

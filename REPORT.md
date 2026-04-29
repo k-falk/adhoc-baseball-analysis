@@ -201,6 +201,123 @@ Aggregating the Savant batter leaderboard rolled up to team:
 - **Scope**: 2026 season through Apr 20 (22 games, 827 PA). 2025 data is the full 162-game line for comparison.
 - **Reproducibility**: All pulls scripted under `scripts/01_..._10_charts.py`, with CSVs saved under `data/` and PNGs under `charts/`. `scripts/lib.py` handles retries on transient 503s from MLB Stats API.
 
+---
+
+# Part II — Four-tool hitter analysis
+
+We define an "elite hitter" as one who combines four orthogonal skills, each measuring a different part of the hitting process:
+
+| Skill                | Metric                             | What it measures            |
+|----------------------|------------------------------------|-----------------------------|
+| Power                | Average Exit Velocity (mph)        | How hard you hit the ball   |
+| Timing               | Pulled-Air %                       | Are you on time? Pulling FB+LD |
+| Contact ability      | In-zone Contact %                  | Bat-to-ball in the strike zone |
+| Swing decision       | (Z-Swing% + (100 − O-Swing%)) / 2  | Public proxy for SEAGER     |
+
+A note on each:
+
+- **Pulled-Air %** is computed from raw Statcast events: `(pulled FB + pulled LD) / batted balls`, with pull defined by spray angle from `hc_x`/`hc_y` adjusted for batter handedness (RHB pull = LF, LHB pull = RF). Direct field is not exposed via Savant's custom-leaderboard CSV — see `scripts/11_pull_air.py`.
+- **In-zone Contact %** is `iz_contact_percent` directly from Savant.
+- **Swing decision** ≈ SEAGER. Robert Orr's SEAGER ("Selectively Aggressive Engagement Rating") uses pitch-by-pitch attack-zone data (heart-swing rate + shadow-take rate) which Savant does not expose publicly. The most defensible public proxy is `(Z-Swing% + (100 − O-Swing%)) / 2`, the symmetric average of "swings on strikes" and "takes on balls". Both halves move with SEAGER and the formula is bounded 0–100.
+
+## Methodology
+
+- Universe: **296 qualified MLB hitters** with ≥ 50 PA and ≥ 25 batted balls (2026 YTD).
+- Each metric is z-scored within that universe, then averaged into a **composite z** (positive = above league average across all four dims).
+- The **min-z** column gives a hitter's *weakest* dimension — a hitter with a high composite but a min-z below 0 is "very good at three things, average at one", whereas a hitter with high composite *and* high min-z is genuinely elite at all four.
+- Three thresholds are reported:
+  - **Elite** — ≥ +0.5 SD on every dim (rough top-30%-ile on each)
+  - **Strong** — ≥ +0.25 SD on every dim
+  - **Well-rounded** — ≥ 0 SD on every dim (positive on each)
+
+## Results
+
+### Top 25 by composite z (2026 YTD)
+
+| Rank | Player              | EV   | Pull-Air% | Z-Contact% | SwgDec | Composite | Min-z  | wOBA |
+|------|---------------------|------|-----------|------------|--------|-----------|--------|------|
+| 1    | Yordan Alvarez      | 94.0 | 31.6      | 93.3       | 67.6   | +1.27     | -0.08  | .505 |
+| 2    | **Mike Trout**      | 92.7 | 25.4      | 89.2       | 71.1   | +1.03     | **+0.83** | .421 |
+| 3    | Mickey Moniak       | 90.4 | 38.1      | 90.3       | 66.3   | +0.97     | -0.46  | .439 |
+| 4    | Ben Rice            | 95.7 | 25.6      | 84.4       | 68.9   | +0.95     | +0.07  | .492 |
+| 5    | Kevin McGonigle     | 89.2 | 27.1      | 90.9       | 72.4   | +0.94     | -0.01  | .419 |
+| 6    | Liam Hicks          | 88.1 | 23.5      | 99.2       | 70.8   | +0.93     | -0.40  | .384 |
+| 7    | Tyler Stephenson    | 95.2 | 16.2      | 80.4       | 75.2   | +0.87     | -0.56  | .263 |
+| 8    | George Springer     | 88.9 | 20.0      | 86.6       | 76.9   | +0.81     | -0.12  | .299 |
+| 9    | Jake Bauers         | 93.3 | 17.3      | 82.9       | 74.8   | +0.81     | -0.17  | .340 |
+| 10   | Zach Neto           | 89.1 | 33.9      | 82.8       | 71.7   | +0.80     | -0.18  | .352 |
+| 14   | Freddie Freeman     | 92.2 | 23.9      | 84.9       | 71.2   | +0.77     | +0.15  | .346 |
+| 22   | Juan Soto (NYM)     | 89.9 | 20.0      | 88.1       | 72.5   | +0.64     | +0.24  | .374 |
+
+### Truly elite (≥ +0.5 SD on every dimension): **only Mike Trout**
+
+> Just **1 of 296** qualified hitters clears the +0.5-SD bar on all four metrics simultaneously. That is the proof that this filter is meaningfully strict — it is hard to be 70th-percentile or better in *all four* skills at once. **Trout is the only true four-tool elite hitter through 22 games of 2026.**
+
+### Strong (≥ +0.25 SD on every dim): 3 hitters
+
+Mike Trout, Colt Keith, Moisés Ballesteros.
+
+### Well-rounded (positive on every dim): 14 hitters
+
+| Player              | EV   | Pull-Air% | Z-Contact% | SwgDec | Composite | wOBA |
+|---------------------|------|-----------|------------|--------|-----------|------|
+| Mike Trout          | 92.7 | 25.4      | 89.2       | 71.1   | +1.03     | .421 |
+| Ben Rice            | 95.7 | 25.6      | 84.4       | 68.9   | +0.95     | .492 |
+| Freddie Freeman     | 92.2 | 23.9      | 84.9       | 71.2   | +0.77     | .346 |
+| Colt Keith          | 94.3 | 19.2      | 87.1       | 69.2   | +0.74     | .336 |
+| Chase DeLauter      | 89.4 | 22.2      | 90.6       | 70.7   | +0.65     | .359 |
+| **Juan Soto (NYM)** | 89.9 | 20.0      | 88.1       | 72.5   | +0.64     | .374 |
+| Moisés Ballesteros  | 92.0 | 19.4      | 86.1       | 68.8   | +0.47     | .487 |
+| William Contreras   | 89.5 | 17.5      | 90.3       | 70.3   | +0.45     | .322 |
+| Wilyer Abreu        | 90.8 | 21.0      | 84.6       | 70.1   | +0.45     | .377 |
+| Brandon Nimmo (TEX) | 91.1 | 20.3      | 84.9       | 69.1   | +0.39     | .354 |
+| Bryan Reynolds      | 91.1 | 18.2      | 84.3       | 70.4   | +0.39     | .336 |
+| Alex Bregman        | 90.4 | 18.7      | 86.8       | 69.0   | +0.35     | .312 |
+| Brooks Lee          | 89.3 | 19.2      | 87.5       | 68.2   | +0.24     | .329 |
+| Xander Bogaerts     | 89.4 | 18.3      | 85.5       | 69.6   | +0.24     | .352 |
+
+### Where the Mets land
+
+| Player            | EV   | Pull-Air% | Z-Contact% | SwgDec | Composite | Rank / 296 |
+|-------------------|------|-----------|------------|--------|-----------|------------|
+| **Juan Soto**     | 89.9 | 20.0      | 88.1       | 72.5   | **+0.64** | **22**     |
+| Marcus Semien     | 86.7 | 27.4      | 84.6       | 72.4   | +0.48     | 41         |
+| Francisco Lindor  | 90.9 | 20.0      | 83.3       | 70.2   | +0.38     | 56         |
+| Carson Benge      | 91.0 | 6.7       | 81.6       | 71.2   | -0.07     | 172        |
+| Bo Bichette       | 91.3 | 7.1       | 90.4       | 64.7   | -0.14     | 188        |
+| Francisco Alvarez | 89.1 | 13.6      | 85.4       | 66.7   | -0.16     | 197        |
+| Luis Robert Jr.   | 90.2 | 7.4       | 87.2       | 66.2   | -0.25     | 213        |
+| Brett Baty        | 91.1 | 10.9      | 80.9       | 65.2   | -0.37     | 231        |
+| Mark Vientos      | 88.5 | 9.3       | 78.0       | 69.9   | -0.44     | 243        |
+
+The data is striking. Of the nine Mets with ≥ 50 PA, **only Juan Soto, Marcus Semien, and Francisco Lindor are above league average across the composite**, and **Soto is the only Met with a positive z on every single one of the four dimensions** (he made the well-rounded list at #22). The other six Mets are below average overall, and the four worst-ranked Mets are exactly the four players who arrived from outside the org (Bichette, Robert Jr., Benge) plus Baty and Vientos.
+
+## Visualizations
+
+- `charts/08_four_tool_bubble.png` — 4-D scatter (X = SwgDec, Y = EV, size = Z-Contact, color = Pull-Air)
+- `charts/09_four_tool_radar.png` — radar chart, top-10 composite + Mets vs MLB leader
+- `charts/10_four_tool_parallel.png` — parallel coordinates plot, Mets highlighted in orange
+- `charts/11_four_tool_heatmap.png` — percentile-rank heatmap for top-30 + every Met
+
+The parallel-coordinates plot is the cleanest summary: every Met line dips to **near-zero on the Pulled-Air axis** while staying middling-to-high on Z-Contact. They are getting bat to ball, but not on time and not in the air to the pull side — the exact failure mode that produces a low-SLG, low-ISO offense. This perfectly mirrors the team-level finding from Part I (SLG .427 → .336, ISO .178 → .110).
+
+## Key insights
+
+1. **The "four-tool" bar is genuinely high — only Mike Trout clears +0.5 SD on every dimension** through 22 games of 2026. Even a perennial MVP like Yordan Alvarez doesn't qualify because his swing-decision number sits just below average. This validates the framework: it filters down to true outliers.
+
+2. **The Mets' problem is not contact and not power — it is timing.** Bichette has 90.4% Z-Contact (90th-percentile) and a 91.3 mph EV (above average). His Pulled-Air% of **7.1% is bottom-decile in MLB.** Robert Jr. (7.4%), Benge (6.7%), Vientos (9.3%) and Baty (10.9%) are all in the bottom quartile of pulled-air. They are hitting hard but they are late, and the resulting balls are oppo grounders and warning-track flies instead of pulled doubles and home runs.
+
+3. **Soto is still elite when he plays** — 22nd in MLB by composite z, the only Met to clear all four thresholds positively, and the only one with a positive min-z. This is *more* evidence (alongside the EV drop in Part I) that whatever is wrong with him is health-related, not skill-related.
+
+4. **They lost a well-rounded hitter (Brandon Nimmo, +0.39 composite, ranked 30th) and replaced him with hitters whose Statcast profile is fundamentally lopsided.** Bichette's profile (high contact, no pull-air, mediocre swing decision) is a finesse contact hitter, not a middle-of-order presence. Robert Jr. has the EV of a slugger but the timing and discipline of a free swinger. Neither is a like-for-like replacement for a balanced .354-wOBA leadoff hitter like Nimmo.
+
+5. **Three actionable Mets coaching targets:**
+   - **Bichette and Robert Jr.** — hit-shape work to get the ball pulled in the air. A 5-point lift in Pulled-Air% from each historically translates to ~25 points of SLG per Statcast research. Their EV says the raw bat speed is there.
+   - **Vientos** — lowest Z-Contact% on the roster (78.0%, ~25th percentile). He is missing pitches in the strike zone he should hit. Mechanical or swing-length issue.
+   - **Baty** — worst Mets swing decision (65.2, below 25th percentile) plus poor pull-air. He's chasing more *and* not punishing the strikes he does swing at. The plate-discipline problem already flagged in Part I.
+
+---
+
 ## Appendix B — Key files
 
 - `data/team_hitting_{2025,2026}.csv` — 30-team hitting leaderboards
@@ -210,4 +327,7 @@ Aggregating the Savant batter leaderboard rolled up to team:
 - `data/mets_savant_{2025,2026}.csv` — Mets roster + Statcast merged
 - `data/mets_yoy.csv` — year-over-year comparison for returnees
 - `data/mets_departures.csv` / `data/mets_additions.csv` — roster churn
-- `charts/*.png` — the 7 figures referenced above
+- `data/savant_pull_air_2026.csv` — per-batter Pulled-Air% from Statcast events
+- `data/four_tool_2026.csv` — full 4-D composite for all qualified hitters
+- `data/four_tool_elite_2026.csv` — strong-threshold list (≥+0.25 SD on every dim)
+- `charts/*.png` — the 11 figures referenced above

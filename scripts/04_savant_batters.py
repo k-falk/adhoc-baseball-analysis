@@ -20,7 +20,7 @@ SELECTIONS = ",".join([
     "barrel_batted_rate", "hard_hit_percent",
     "z_swing_percent", "oz_swing_percent", "whiff_percent",
     "swing_percent", "meatball_swing_percent",
-    "in_zone_swing_miss_percent", "out_zone_swing_miss_percent",
+    "iz_contact_percent", "oz_contact_percent",
     "pull_percent", "straightaway_percent", "opposite_percent",
     "groundballs_percent", "flyballs_percent", "linedrives_percent", "popups_percent",
     "babip",
