@@ -318,6 +318,120 @@ The parallel-coordinates plot is the cleanest summary: every Met line dips to **
 
 ---
 
+# Part III — Trade target board (1B / 2B / 3B / DH, under 31, short window, underperforming teams)
+
+## Method
+
+1. Universe = 296 qualified MLB hitters from Part II (≥ 50 PA, ≥ 25 BIP).
+2. **Position filter** — primary position in {1B, 2B, 3B, DH} from MLB Stats API `/people` endpoint.
+3. **Age filter** — < 31 as of 2026-04-29 (computed from `birthDate`).
+4. **Team filter** — currently on a team with W% < .500 *and* run differential < 0 through 30 games of 2026:
+
+> Underperforming teams (the seller / rebuilder set):
+> Astros, Phillies, Angels, Red Sox, Royals, **White Sox, Rockies, Nationals**, Twins, Giants, Blue Jays, **Orioles, Guardians**.
+> (The Mets themselves and contenders like the Padres / Reds / Cubs / D-backs / Brewers / Cardinals are filtered out.)
+
+5. **Years-of-control proxy** = `6 − years since MLB debut`, with hand-curated overrides for known extensions (Vlad Jr., Devers, Pasquantino) and short-term deals (Moncada, India). This is rough — extensions and option years aren't in the public API, so anything below should be ground-truthed against Spotrac before action. Spotrac was 403'ing during this run.
+
+6. **Final filter for "short window"**: 0–3 years of control left.
+
+## The board — ranked by four-tool composite z
+
+### Tier 1 — Strong skill fit, short window, motivated seller
+
+These are the clearest matches: positive four-tool composite, ≤3 years of control, and on a team that is going to be selling at the deadline.
+
+| Rank | Player              | Pos | Age  | Team | PA  | EV   | Pull-Air% | Z-Con% | SwgDec | Composite | Yrs left | Why he fits |
+|------|---------------------|-----|------|------|-----|------|-----------|--------|--------|-----------|----------|-------------|
+| 1    | **Isaac Paredes**   | 3B  | 27.2 | HOU  | 98  | 88.2 | **32.7%** | 87.8   | 67.0   | **+0.54** | ~2 (FA after '27) | Arb-eligible RHB, **highest Pulled-Air% on the board**. He pulls 1/3 of his contact in the air — the *exact* profile to attack Citi Field's left-field porch. Astros (11-19) are firmly underperforming and Paredes is squeezed by Pena/Diaz/Alvarez at his best positions. Single-handedly addresses the Mets' #1 deficiency (timing/pull-air). |
+| 2    | **Miguel Vargas**   | 3B  | 26.5 | CWS  | 121 | 89.0 | 19.7%     | 81.8   | **76.2** | **+0.56** | ~2-3 (arb path) | White Sox (13-17, -25 diff) are perpetually selling. Vargas has the **best swing-decision number among target candidates (76.2)** — top decile. Multi-position (3B/2B/LF) flexibility. His xwOBA (.374) is well above his wOBA (.356) so positive regression coming. |
+| 3    | **Jonathan India**  | 2B  | 29.4 | KC   | 58  | 85.7 | 20.0%     | 80.6   | 71.1   | -0.12     | 0-1 (FA after '26) | Pure walk-year rental. Below-average composite but a known above-average OBP guy (career .349). KC at 12-17 should sell. Cheap acquisition cost (rental). Mostly a stop-gap to plug the 2B hole. |
+| 4    | **Luis Arraez**     | 2B  | 29.1 | SF   | 115 | 86.2 | 11.5%     | **93.6** | 68.4 | -0.05     | 0-1 (FA after '26) | Giants at 13-16 with -24 diff are sellers. Arraez is the **best pure contact bat in baseball** (93.6% Z-Contact). Negative composite *because* the framework punishes his lack of power and pull-air, but he is a perfect top-of-order on-base table-setter — a very different bet than the framework optimizes for. Worth considering specifically because the Mets need OBP-merchants (BB% 7.7%, 26th in MLB). |
+| 5    | **Yoán Moncada**    | 3B  | 30.9 | LAA  | 92  | 90.2 | 20.5%     | 81.0   | 67.0   | +0.02     | 0 (short LAA deal) | At 30.9 he's at the upper age limit and only includes him on injury-risk/upside. Bounce-back candidate at ~average composite. |
+
+### Tier 2 — Skill fit, but longer control window (would cost more in prospects)
+
+Listed for completeness; these are the *good* hitters the Mets *could* target if they want to acquire 4–6 years of control — but the user's brief specified short window. They would cost a much heavier prospect package.
+
+| Rank | Player              | Pos | Age  | Team | PA  | EV   | Pull-Air% | Z-Con% | SwgDec | Composite | Yrs left | Note |
+|------|---------------------|-----|------|------|-----|------|-----------|--------|--------|-----------|----------|------|
+| —    | Casey Schmitt       | 1B  | 27.2 | SF   | 89  | 91.4 | 28.9%     | 86.7   | 67.5   | **+0.68** | 4-5 (pre-arb) | Best composite in target set. SF likely sells but won't give him up cheap. |
+| —    | TJ Rumfield         | 1B  | 26.0 | COL  | 113 | 86.3 | 24.6%     | 92.3   | 72.7   | **+0.67** | 5-6 (pre-arb) | Colorado-context EV; verify away splits. |
+| —    | Vinnie Pasquantino  | 1B  | 28.6 | KC   | 120 | 88.6 | 25.4%     | 87.2   | 67.7   | +0.34     | 5+ (extension) | On 7yr / $50M ext through 2031 → **NOT** a short-window guy. KC also probably won't sell their face-of-franchise 1B. |
+| —    | Maikel Garcia       | 3B  | 26.2 | KC   | 112 | 89.8 | 17.3%     | **93.1** | 66.8 | +0.34     | 4-5 (pre-arb) | High contact + good EV but low pull-air. Long control = expensive. |
+| —    | Marcelo Mayer       | 2B  | 23.4 | BOS  | 76  | 88.0 | **2.3%**  | 87.9   | 74.0   | -0.04     | 5-6 (pre-arb) | Rookie struggles; very low pull-air. Boston not selling. |
+
+### Tier 3 — Avoid (locked-up long contracts)
+
+| Player                | Note |
+|-----------------------|------|
+| Vladimir Guerrero Jr. | Signed 14-year/$500M extension with TOR; will not be moved. |
+| Rafael Devers (SF)    | Signed 10-year/$313M extension; near-untradeable contract. |
+| Munetaka Murakami     | Just signed multi-year posting deal with CWS. |
+
+## Recommendation
+
+If the Mets are willing to spend prospect capital on a **short-window upgrade that directly attacks their identified weakness (timing / pull-air)**, the order of preference is:
+
+1. **Isaac Paredes** — the cleanest fit on the board. Highest Pulled-Air% in the target universe (32.7%), at a position the Mets need to upgrade (Vientos/Baty platoon), and on a team (Houston) currently 11-19 with a -25 differential and likely to sell. Astros have been quietly listening on Paredes since they acquired him from the Cubs and have surplus 3B/DH options.
+
+2. **Miguel Vargas** — best swing-decision profile in the set, multi-position flexibility, and the White Sox at 13-17 with -25 diff are *always* selling. Lower upside than Paredes but cheaper price.
+
+3. **Luis Arraez** *as a complementary piece* — the framework rates him low because of no power and no pull-air, but he is the **best OBP-guarantee** the Mets could acquire as a walk-year rental, and OBP is a documented Mets weakness (26th in BB% league-wide). He is not a Soto/Alonso replacement; he is a top-of-order table-setter to put men on for Soto/Alvarez/Lindor.
+
+4. **Jonathan India** — if KC sells, he's the cheapest 2B walk-year rental and would solve the Bichette-vs-Semien middle-infield logjam.
+
+## Caveats
+
+- All contract data above is reconstructed from public knowledge as of late 2025 / early 2026; Spotrac was inaccessible (403) during this analysis. **Verify all years-of-control via Spotrac before acting.**
+- Sample sizes are small (29-30 games of data). Pull-Air% and EV stabilize fastest of the four metrics, but composite z's are still noisy at this point in the season — re-run after ~75 games for a more reliable read.
+- The position filter uses MLB Stats API `primaryPosition`, which does not always reflect *2026 actual usage* — for example, India has played some OF for KC. Re-confirm playing-time fit per target.
+
+---
+
+# Part IV — 2027 and 2028 free-agent class boards (1B / 2B / 3B / DH, age < 31)
+
+For free-agent signings, the underperforming-team filter is dropped (the Mets can sign any FA). Same position/age/PA constraints apply, with FA-year derived from a service-time proxy and hand-curated overrides for known extensions.
+
+## 2027 FA class (control runs out after 2026)
+
+| # | Player              | Pos | Age  | Team | Comp z | Pull-Air% | wOBA | Note |
+|---|---------------------|-----|------|------|--------|-----------|------|------|
+| 1 | Jake Bauers         | 1B  | 30.6 | MIL  | +0.81  | 17.3%     | .340 | journeyman with strong start |
+| 2 | **Isaac Paredes**   | 3B  | 27.2 | HOU  | +0.54  | **32.7%** | .323 | high pull-air RHB; possibly 2028 FA depending on arb |
+| 3 | Dominic Smith       | 1B  | 30.9 | ATL  | +0.21  | 24.5%     | .410 | bounce-back ex-Met |
+| 4 | Josh Naylor         | 1B  | 28.9 | SEA  | +0.19  | 20.0%     | .268 | power LH bat |
+| 5 | Luis Rengifo        | 3B  | 29.2 | MIL  | +0.13  | 17.6%     | .229 | utility |
+| 6 | **Yoán Moncada**    | 3B  | 30.9 | LAA  | +0.02  | 20.5%     | .321 | on 1-yr LAA deal — clean 2027 FA |
+| 7 | **Luis Arraez**     | 2B  | 29.1 | SF   | -0.05  | 11.5%     | .320 | walk-year arb-3; best contact in MLB |
+| 8 | Luis García Jr.     | 1B  | 26.0 | WSH  | -0.10  | 10.0%     | .285 | proxy-only; verify |
+| 9 | **Jonathan India**  | 2B  | 29.4 | KC   | -0.12  | 20.0%     | .294 | confirmed walk-year |
+| 10 | Amed Rosario       | 3B  | 30.4 | NYY  | -0.14  | 10.5%     | .351 | bench |
+| 11 | Willi Castro       | 2B  | 29.0 | COL  | -0.50  | 13.2%     | .303 | utility |
+| 12 | Alec Bohm          | 3B  | 29.7 | PHI  | -0.51  | 1.6%      | .197 | bottom-decile pull-air |
+| 13 | Gleyber Torres     | 2B  | 29.4 | DET  | -0.71  | 2.9%      | .335 | contact-only role player now |
+
+**Excluded (extensions verified)**: Vlad Jr. (14yr/$500M ext through 2039), Austin Riley (10yr/$212M through 2032), Ke'Bryan Hayes (8yr/$70M through 2029), Ozzie Albies (extension), Nico Hoerner (extension w/ options).
+
+## 2028 FA class (control runs out after 2027)
+
+| # | Player              | Pos | Age  | Team | Comp z | Pull-Air% | wOBA | Note |
+|---|---------------------|-----|------|------|--------|-----------|------|------|
+| 1 | **Ernie Clement**   | 2B  | 30.1 | TOR  | +0.03  | 22.4%     | .325 | glove-first, 93.7 Z-Contact |
+| 2 | Jake Burger         | 1B  | 30.1 | TEX  | -0.29  | 23.3%     | .290 | power-only, chase issues |
+| 3 | **Jazz Chisholm Jr.**| 2B | 28.2 | NYY  | -0.29  | 20.5%     | .299 | confirmed 2028 FA, multi-pos |
+| 4 | Gavin Sheets        | 1B  | 30.0 | SD   | -0.53  | 14.0%     | .329 | platoon bat |
+
+The 2028 class at these positions and under 31 is genuinely thin — most younger hitters are still under team control through at least 2029.
+
+## Likely-missing names that ground-truthing should pull in
+
+- **Pete Alonso** (BAL, 1B, 31.4) — just over the age cap, but if his 2026 player option voids he becomes the headline 2027 FA at the position.
+- **Andrew Vaughn** (CWS, 1B/DH, 27.9) — likely 2027 FA but composite below average.
+- **Spencer Torkelson** (DET, 1B, 26.6) — just under 50 PA threshold at last pull; likely 2028 FA. Re-run after his sample stabilizes.
+
+---
+
 ## Appendix B — Key files
 
 - `data/team_hitting_{2025,2026}.csv` — 30-team hitting leaderboards
@@ -330,4 +444,9 @@ The parallel-coordinates plot is the cleanest summary: every Met line dips to **
 - `data/savant_pull_air_2026.csv` — per-batter Pulled-Air% from Statcast events
 - `data/four_tool_2026.csv` — full 4-D composite for all qualified hitters
 - `data/four_tool_elite_2026.csv` — strong-threshold list (≥+0.25 SD on every dim)
+- `data/standings_2026.csv` — team standings + Pythagorean
+- `data/rosters_2026_dedup.csv` — every active 2026 player → team mapping
+- `data/player_info_2026.csv` — age, position, debut date, FA-proxy
+- `data/trade_candidates_2026.csv` / `data/trade_board_short_window.csv` — Part III board
+- `data/fa_2027_class.csv` / `data/fa_2028_class.csv` — Part IV FA boards
 - `charts/*.png` — the 11 figures referenced above

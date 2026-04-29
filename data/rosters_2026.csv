@@ -1,0 +1,978 @@
+player_id,full_name,team,team_id,team_abbr,roster_pos,status
+665660,Elvis Alvarado,Athletics,133,ATH,P,Reassigned to Minors
+605130,Scott Barlow,Athletics,133,ATH,P,Active
+686930,Mason Barnett,Athletics,133,ATH,P,Reassigned to Minors
+669620,Brady Basso,Athletics,133,ATH,P,Active
+671732,Lawrence Butler,Athletics,133,ATH,RF,Active
+650644,Aaron Civale,Athletics,133,ATH,P,Active
+672016,Denzel Clarke,Athletics,133,ATH,CF,Injured 10-Day
+666126,Carlos Cortes,Athletics,133,ATH,RF,Active
+680869,Zack Gelof,Athletics,133,ATH,CF,Active
+669372,J.T. Ginn,Athletics,133,ATH,P,Active
+663687,Hogan Harris,Athletics,133,ATH,P,Active
+687231,Darell Hernaiz,Athletics,133,ATH,3B,Active
+628451,Andy Ibáñez,Athletics,133,ATH,2B,Designated for Assignment
+547184,Michael Kelly,Athletics,133,ATH,P,Reassigned to Minors
+669270,Joel Kuhnel,Athletics,133,ATH,P,Active
+701762,Nick Kurtz,Athletics,133,ATH,1B,Active
+669127,Shea Langeliers,Athletics,133,ATH,C,Active
+643410,Mark Leiter Jr.,Athletics,133,ATH,P,Active
+682052,Jacob Lopez,Athletics,133,ATH,P,Active
+643446,Jeff McNeil,Athletics,133,ATH,2B,Active
+665622,Luis Medina,Athletics,133,ATH,P,Active
+806960,Luis Morales,Athletics,133,ATH,P,Reassigned to Minors
+691777,Max Muncy,Athletics,133,ATH,3B,Injured 10-Day
+678022,Jack Perkins,Athletics,133,ATH,P,Active
+667670,Brent Rooker,Athletics,133,ATH,RF,Active
+622663,Luis Severino,Athletics,133,ATH,P,Active
+691016,Tyler Soderstrom,Athletics,133,ATH,LF,Active
+605488,Jeffrey Springs,Athletics,133,ATH,P,Active
+686993,Justin Sterner,Athletics,133,ATH,P,Active
+687515,Colby Thomas,Athletics,133,ATH,RF,Active
+805779,Jacob Wilson,Athletics,133,ATH,SS,Active
+642851,Austin Wynns,Athletics,133,ATH,C,Active
+677952,Braxton Ashcraft,Pittsburgh Pirates,134,PIT,P,Active
+682995,Hunter Barco,Pittsburgh Pirates,134,PIT,P,Active
+663698,Joey Bart,Pittsburgh Pirates,134,PIT,C,Active
+696149,Bubba Chandler,Pittsburgh Pirates,134,PIT,P,Active
+695257,Billy Cook,Pittsburgh Pirates,134,PIT,RF,Active
+665833,Oneil Cruz,Pittsburgh Pirates,134,PIT,CF,Active
+680779,Henry Davis,Pittsburgh Pirates,134,PIT,C,Active
+696062,Wilber Dotel,Pittsburgh Pirates,134,PIT,P,Reassigned to Minors
+693304,Nick Gonzales,Pittsburgh Pirates,134,PIT,3B,Active
+804606,Konnor Griffin,Pittsburgh Pirates,134,PIT,SS,Active
+687462,Spencer Horwitz,Pittsburgh Pirates,134,PIT,1B,Active
+656605,Mitch Keller,Pittsburgh Pirates,134,PIT,P,Active
+664875,Justin Lawrence,Pittsburgh Pirates,134,PIT,P,Active
+664040,Brandon Lowe,Pittsburgh Pirates,134,PIT,2B,Active
+663968,Jake Mangum,Pittsburgh Pirates,134,PIT,LF,Active
+676755,Isaac Mattson,Pittsburgh Pirates,134,PIT,P,Active
+669387,Carmen Mlodzinski,Pittsburgh Pirates,134,PIT,P,Active
+682254,Mason Montgomery,Pittsburgh Pirates,134,PIT,P,Active
+656811,Ryan O'Hearn,Pittsburgh Pirates,134,PIT,RF,Active
+542303,Marcell Ozuna,Pittsburgh Pirates,134,PIT,DH,Active
+670990,Yohan Ramírez,Pittsburgh Pirates,134,PIT,P,Active
+668804,Bryan Reynolds,Pittsburgh Pirates,134,PIT,LF,Active
+676742,Cam Sanders,Pittsburgh Pirates,134,PIT,P,Reassigned to Minors
+642701,Dennis Santana,Pittsburgh Pirates,134,PIT,P,Active
+681895,Evan Sisk,Pittsburgh Pirates,134,PIT,P,Active
+694973,Paul Skenes,Pittsburgh Pirates,134,PIT,P,Active
+642397,Gregory Soto,Pittsburgh Pirates,134,PIT,P,Active
+669707,Jared Triolo,Pittsburgh Pirates,134,PIT,SS,Injured 10-Day
+664353,José Urquidy,Pittsburgh Pirates,134,PIT,P,Reassigned to Minors
+694377,Nick Yorke,Pittsburgh Pirates,134,PIT,3B,Active
+592094,Jason Adam,San Diego Padres,135,SD,P,Active
+609280,Miguel Andujar,San Diego Padres,135,SD,3B,Active
+593428,Xander Bogaerts,San Diego Padres,135,SD,SS,Active
+621111,Walker Buehler,San Diego Padres,135,SD,P,Active
+669134,Luis Campusano,San Diego Padres,135,SD,C,Active
+592206,Nick Castellanos,San Diego Padres,135,SD,RF,Active
+630105,Jake Cronenworth,San Diego Padres,135,SD,2B,Active
+669093,Jeremiah Estrada,San Diego Padres,135,SD,P,Injured 15-Day
+666023,Freddy Fermin,San Diego Padres,135,SD,C,Active
+664034,Ty France,San Diego Padres,135,SD,1B,Active
+606996,Kyle Hart,San Diego Padres,135,SD,P,Active
+689690,Alek Jacob,San Diego Padres,135,SD,P,Reassigned to Minors
+669369,Bryce Johnson,San Diego Padres,135,SD,RF,Active
+650633,Michael King,San Diego Padres,135,SD,P,Active
+657656,Ramón Laureano,San Diego Padres,135,SD,LF,Active
+592518,Manny Machado,San Diego Padres,135,SD,3B,Active
+676760,Ron Marinaccio,San Diego Padres,135,SD,P,Active
+608566,Germán Márquez,San Diego Padres,135,SD,P,Active
+701538,Jackson Merrill,San Diego Padres,135,SD,CF,Active
+695243,Mason Miller,San Diego Padres,135,SD,P,Active
+670970,Adrian Morejon,San Diego Padres,135,SD,P,Active
+688158,David Morgan,San Diego Padres,135,SD,P,Active
+593974,Wandy Peralta,San Diego Padres,135,SD,P,Active
+601713,Nick Pivetta,San Diego Padres,135,SD,P,Injured 15-Day
+699134,Bradgley Rodriguez,San Diego Padres,135,SD,P,Active
+657757,Gavin Sheets,San Diego Padres,135,SD,1B,Active
+823550,Sung-Mun Song,San Diego Padres,135,SD,3B,Reassigned to Minors
+665487,Fernando Tatis Jr.,San Diego Padres,135,SD,RF,Active
+681190,Randy Vásquez,San Diego Padres,135,SD,P,Active
+663362,Matt Waldron,San Diego Padres,135,SD,P,Active
+668227,Randy Arozarena,Seattle Mariners,136,SEA,LF,Active
+660825,Eduard Bazardo,Seattle Mariners,136,SEA,P,Active
+669208,Ryan Bliss,Seattle Mariners,136,SEA,2B,Reassigned to Minors
+666374,Matt Brash,Seattle Mariners,136,SEA,P,Active
+686527,Dominic Canzone,Seattle Mariners,136,SEA,RF,Active
+622491,Luis Castillo,Seattle Mariners,136,SEA,P,Active
+641487,J.P. Crawford,Seattle Mariners,136,SEA,SS,Active
+681867,Cooper Criswell,Seattle Mariners,136,SEA,P,Active
+680977,Brendan Donovan,Seattle Mariners,136,SEA,3B,Injured 10-Day
+678606,Jose A. Ferrer,Seattle Mariners,136,SEA,P,Active
+641598,Mitch Garver,Seattle Mariners,136,SEA,C,Active
+669302,Logan Gilbert,Seattle Mariners,136,SEA,P,Active
+676106,Emerson Hancock,Seattle Mariners,136,SEA,P,Active
+695380,Alex Hoppe,Seattle Mariners,136,SEA,P,Active
+656582,Connor Joe,Seattle Mariners,136,SEA,1B,Active
+669923,George Kirby,Seattle Mariners,136,SEA,P,Active
+668984,Casey Legumina,Seattle Mariners,136,SEA,P,Traded
+662253,Andrés Muñoz,Seattle Mariners,136,SEA,P,Active
+647304,Josh Naylor,Seattle Mariners,136,SEA,1B,Active
+663728,Cal Raleigh,Seattle Mariners,136,SEA,C,Active
+670042,Luke Raley,Seattle Mariners,136,SEA,RF,Active
+608701,Rob Refsnyder,Seattle Mariners,136,SEA,RF,Active
+660844,Leo Rivas,Seattle Mariners,136,SEA,3B,Active
+645302,Victor Robles,Seattle Mariners,136,SEA,RF,Injured 10-Day
+677594,Julio Rodríguez,Seattle Mariners,136,SEA,CF,Active
+642100,Gabe Speier,Seattle Mariners,136,SEA,P,Active
+677961,Cole Wilcox,Seattle Mariners,136,SEA,P,Active
+669717,Will Wilson,Seattle Mariners,136,SEA,3B,Active
+621550,Patrick Wisdom,Seattle Mariners,136,SEA,1B,Injured 10-Day
+693433,Bryan Woo,Seattle Mariners,136,SEA,P,Active
+702284,Cole Young,Seattle Mariners,136,SEA,2B,Active
+642715,Willy Adames,San Francisco Giants,137,SF,SS,Active
+650333,Luis Arraez,San Francisco Giants,137,SF,2B,Active
+664056,Harrison Bader,San Francisco Giants,137,SF,CF,Injured 10-Day
+672275,Patrick Bailey,San Francisco Giants,137,SF,C,Active
+621366,Ryan Borucki,San Francisco Giants,137,SF,P,Active
+686823,Will Brennan,San Francisco Giants,137,SF,LF,Active
+664141,JT Brubaker,San Francisco Giants,137,SF,P,Active
+676130,José Buttó,San Francisco Giants,137,SF,P,Injured 60-Day
+656305,Matt Chapman,San Francisco Giants,137,SF,3B,Active
+646240,Rafael Devers,San Francisco Giants,137,SF,1B,Active
+666464,Jerar Encarnacion,San Francisco Giants,137,SF,RF,Active
+657424,Matt Gage,San Francisco Giants,137,SF,P,Active
+687551,Drew Gilbert,San Francisco Giants,137,SF,CF,Active
+606992,Eric Haase,San Francisco Giants,137,SF,C,Active
+605288,Adrian Houser,San Francisco Giants,137,SF,P,Active
+668873,Caleb Kilian,San Francisco Giants,137,SF,P,Active
+683766,Christian Koss,San Francisco Giants,137,SF,2B,Active
+808982,Jung Hoo Lee,San Francisco Giants,137,SF,RF,Active
+641816,Tyler Mahle,San Francisco Giants,137,SF,P,Active
+669062,Erik Miller,San Francisco Giants,137,SF,P,Active
+666931,Jared Oliva,San Francisco Giants,137,SF,CF,Injured 10-Day
+671218,Heliot Ramos,San Francisco Giants,137,SF,LF,Active
+592662,Robbie Ray,San Francisco Giants,137,SF,P,Active
+694738,Landen Roupp,San Francisco Giants,137,SF,P,Active
+669477,Casey Schmitt,San Francisco Giants,137,SF,1B,Active
+691740,Daniel Susac,San Francisco Giants,137,SF,C,Injured 10-Day
+694918,Blade Tidwell,San Francisco Giants,137,SF,P,Active
+676254,Ryan Walker,San Francisco Giants,137,SF,P,Active
+657277,Logan Webb,San Francisco Giants,137,SF,P,Active
+676775,Keaton Winn,San Francisco Giants,137,SF,P,Active
+677865,Justin Bruihl,St. Louis Cardinals,138,STL,P,Active
+676475,Alec Burleson,St. Louis Cardinals,138,STL,1B,Active
+701675,Nathan Church,St. Louis Cardinals,138,STL,LF,Active
+665877,José Fermín,St. Louis Cardinals,138,STL,LF,Active
+681676,Ryan Fernandez,St. Louis Cardinals,138,STL,P,Active
+669357,Nolan Gorman,St. Louis Cardinals,138,STL,3B,Active
+700669,Gordon Graceffo,St. Louis Cardinals,138,STL,P,Active
+671056,Iván Herrera,St. Louis Cardinals,138,STL,C,Active
+681517,Kyle Leahy,St. Louis Cardinals,138,STL,P,Active
+669461,Matthew Liberatore,St. Louis Cardinals,138,STL,P,Active
+669160,Dustin May,St. Louis Cardinals,138,STL,P,Active
+700241,Michael McGreevy,St. Louis Cardinals,138,STL,P,Active
+676617,Riley O'Brien,St. Louis Cardinals,138,STL,P,Active
+686780,Pedro Pagés,St. Louis Cardinals,138,STL,C,Active
+669467,Andre Pallante,St. Louis Cardinals,138,STL,P,Active
+650968,Yohel Pozo,St. Louis Cardinals,138,STL,C,Active
+690155,Matt Pushard,St. Louis Cardinals,138,STL,P,Injured 15-Day
+668941,JoJo Romero,St. Louis Cardinals,138,STL,P,Active
+688297,Chris Roycroft,St. Louis Cardinals,138,STL,P,Reassigned to Minors
+695336,Thomas Saggese,St. Louis Cardinals,138,STL,LF,Active
+687363,Victor Scott II,St. Louis Cardinals,138,STL,CF,Active
+694363,Jared Shuster,St. Louis Cardinals,138,STL,P,Minor League Contract
+666277,George Soriano,St. Louis Cardinals,138,STL,P,Active
+592773,Ryne Stanek,St. Louis Cardinals,138,STL,P,Active
+694335,Matt Svanson,St. Louis Cardinals,138,STL,P,Active
+602104,Ramón Urías,St. Louis Cardinals,138,STL,3B,Active
+691023,Jordan Walker,St. Louis Cardinals,138,STL,RF,Active
+802139,JJ Wetherholt,St. Louis Cardinals,138,STL,2B,Active
+691026,Masyn Winn,St. Louis Cardinals,138,STL,SS,Active
+666018,Jonathan Aranda,Tampa Bay Rays,139,TB,1B,Active
+641329,Bryan Baker,Tampa Bay Rays,139,TB,P,Active
+685801,Hunter Bigge,Tampa Bay Rays,139,TB,P,Active
+671212,Joe Boyle,Tampa Bay Rays,139,TB,P,Injured 15-Day
+691406,Junior Caminero,Tampa Bay Rays,139,TB,3B,Active
+664076,Garrett Cleavinger,Tampa Bay Rays,139,TB,P,Injured 15-Day
+676356,Jonny DeLuca,Tampa Bay Rays,139,TB,RF,Active
+650490,Yandy Díaz,Tampa Bay Rays,139,TB,1B,Active
+669438,Mason Englert,Tampa Bay Rays,139,TB,P,Injured 15-Day
+676439,Hunter Feduccia,Tampa Bay Rays,139,TB,C,Active
+663743,Nick Fortes,Tampa Bay Rays,139,TB,C,Active
+641584,Jake Fraley,Tampa Bay Rays,139,TB,RF,Active
+672782,Yoendrys Gómez,Tampa Bay Rays,139,TB,P,Active
+643377,Griffin Jax,Tampa Bay Rays,139,TB,P,Active
+687330,Kevin Kelly,Tampa Bay Rays,139,TB,P,Active
+694680,Trevor Martin,Tampa Bay Rays,139,TB,P,Reassigned to Minors
+607259,Nick Martinez,Tampa Bay Rays,139,TB,P,Active
+571927,Steven Matz,Tampa Bay Rays,139,TB,P,Active
+663556,Shane McClanahan,Tampa Bay Rays,139,TB,P,Active
+656775,Cedric Mullins,Tampa Bay Rays,139,TB,CF,Active
+680700,Richie Palacios,Tampa Bay Rays,139,TB,2B,Active
+656876,Drew Rasmussen,Tampa Bay Rays,139,TB,P,Active
+669947,Jesse Scholtens,Tampa Bay Rays,139,TB,P,Active
+693855,Ian Seymour,Tampa Bay Rays,139,TB,P,Active
+802415,Chandler Simpson,Tampa Bay Rays,139,TB,LF,Active
+642121,Cole Sulser,Tampa Bay Rays,139,TB,P,Active
+668723,Ryan Vilade,Tampa Bay Rays,139,TB,RF,Active
+670764,Taylor Walls,Tampa Bay Rays,139,TB,SS,Active
+700246,Carson Williams,Tampa Bay Rays,139,TB,SS,Reassigned to Minors
+810938,Ben Williamson,Tampa Bay Rays,139,TB,2B,Active
+641302,Tyler Alexander,Texas Rangers,140,TEX,P,Active
+691945,Carter Baumler,Texas Rangers,140,TEX,P,Injured 15-Day
+656222,Jalen Beeks,Texas Rangers,140,TEX,P,Active
+669394,Jake Burger,Texas Rangers,140,TEX,1B,Active
+694497,Evan Carter,Texas Rangers,140,TEX,CF,Active
+686560,Gavin Collyer,Texas Rangers,140,TEX,P,Active
+681168,Luis Curvelo,Texas Rangers,140,TEX,P,Injured 15-Day
+677649,Ezequiel Duran,Texas Rangers,140,TEX,LF,Active
+543135,Nathan Eovaldi,Texas Rangers,140,TEX,P,Active
+676395,Robert Garcia,Texas Rangers,140,TEX,P,Injured 15-Day
+669022,MacKenzie Gore,Texas Rangers,140,TEX,P,Active
+682608,Peyton Gray,Texas Rangers,140,TEX,P,Active
+664059,Sam Haggerty,Texas Rangers,140,TEX,LF,Active
+543309,Kyle Higashioka,Texas Rangers,140,TEX,C,Active
+643376,Danny Jansen,Texas Rangers,140,TEX,C,Active
+673962,Josh Jung,Texas Rangers,140,TEX,3B,Active
+596001,Jakob Junis,Texas Rangers,140,TEX,P,Active
+694671,Wyatt Langford,Texas Rangers,140,TEX,LF,Injured 10-Day
+656641,Jacob Latz,Texas Rangers,140,TEX,P,Active
+683004,Jack Leiter,Texas Rangers,140,TEX,P,Active
+455119,Chris Martin,Texas Rangers,140,TEX,P,Injured 15-Day
+457705,Andrew McCutchen,Texas Rangers,140,TEX,LF,Active
+607043,Brandon Nimmo,Texas Rangers,140,TEX,RF,Active
+696030,Alejandro Osuna,Texas Rangers,140,TEX,LF,Active
+592626,Joc Pederson,Texas Rangers,140,TEX,1B,Active
+615698,Cal Quantrill,Texas Rangers,140,TEX,P,Active
+677958,Kumar Rocker,Texas Rangers,140,TEX,P,Active
+608369,Corey Seager,Texas Rangers,140,TEX,SS,Active
+669701,Josh Smith,Texas Rangers,140,TEX,2B,Active
+668390,Cole Winn,Texas Rangers,140,TEX,P,Active
+594798,Jacob deGrom,Texas Rangers,140,TEX,P,Active
+680718,Addison Barger,Toronto Blue Jays,141,TOR,RF,Injured 10-Day
+656302,Dylan Cease,Toronto Blue Jays,141,TOR,P,Active
+676391,Ernie Clement,Toronto Blue Jays,141,TOR,2B,Active
+571578,Patrick Corbin,Toronto Blue Jays,141,TOR,P,Active
+681751,Lazaro Estrada,Toronto Blue Jays,141,TOR,P,Injured 15-Day
+680755,Braydon Fisher,Toronto Blue Jays,141,TOR,P,Active
+676596,Josh Fleming,Toronto Blue Jays,141,TOR,P,Minor League Contract
+689254,Mason Fluharty,Toronto Blue Jays,141,TOR,P,Active
+592332,Kevin Gausman,Toronto Blue Jays,141,TOR,P,Active
+665926,Andrés Giménez,Toronto Blue Jays,141,TOR,SS,Active
+665489,Vladimir Guerrero Jr.,Toronto Blue Jays,141,TOR,1B,Active
+623168,Tyler Heineman,Toronto Blue Jays,141,TOR,C,Active
+656546,Jeff Hoffman,Toronto Blue Jays,141,TOR,P,Active
+650391,Eloy Jiménez,Toronto Blue Jays,141,TOR,DH,Active
+672386,Alejandro Kirk,Toronto Blue Jays,141,TOR,C,Injured 10-Day
+641778,Eric Lauer,Toronto Blue Jays,141,TOR,P,Active
+695445,Chase Lee,Toronto Blue Jays,141,TOR,P,Reassigned to Minors
+663893,Brendon Little,Toronto Blue Jays,141,TOR,P,Reassigned to Minors
+664770,Nathan Lukes,Toronto Blue Jays,141,TOR,RF,Injured 10-Day
+573009,Joe Mantiply,Toronto Blue Jays,141,TOR,P,Active
+693686,Spencer Miles,Toronto Blue Jays,141,TOR,P,Active
+667297,Tommy Nance,Toronto Blue Jays,141,TOR,P,Active
+672960,Kazuma Okamoto,Toronto Blue Jays,141,TOR,3B,Active
+682818,Yohendrick Pinango,Toronto Blue Jays,141,TOR,LF,Active
+664074,Cody Ponce,Toronto Blue Jays,141,TOR,P,Injured 60-Day
+643511,Tyler Rogers,Toronto Blue Jays,141,TOR,P,Active
+660821,Jesús Sánchez,Toronto Blue Jays,141,TOR,LF,Active
+453286,Max Scherzer,Toronto Blue Jays,141,TOR,P,Injured 15-Day
+676914,Davis Schneider,Toronto Blue Jays,141,TOR,LF,Active
+672820,Lenyn Sosa,Toronto Blue Jays,141,TOR,2B,Active
+543807,George Springer,Toronto Blue Jays,141,TOR,DH,Injured 10-Day
+664702,Myles Straw,Toronto Blue Jays,141,TOR,RF,Active
+678218,Brandon Valenzuela,Toronto Blue Jays,141,TOR,C,Active
+686973,Louis Varland,Toronto Blue Jays,141,TOR,P,Active
+662139,Daulton Varsho,Toronto Blue Jays,141,TOR,CF,Active
+608723,Austin Voth,Toronto Blue Jays,141,TOR,P,Minor League Contract
+702056,Trey Yesavage,Toronto Blue Jays,141,TOR,P,Active
+690953,Mick Abel,Minnesota Twins,142,MIN,P,Injured 15-Day
+670183,Garrett Acton,Minnesota Twins,142,MIN,P,Injured 15-Day
+607455,Anthony Banda,Minnesota Twins,142,MIN,P,Active
+605137,Josh Bell,Minnesota Twins,142,MIN,1B,Active
+671737,Taj Bradley,Minnesota Twins,142,MIN,P,Active
+621439,Byron Buxton,Minnesota Twins,142,MIN,CF,Active
+605170,Victor Caratini,Minnesota Twins,142,MIN,C,Active
+665019,Kody Clemens,Minnesota Twins,142,MIN,1B,Active
+681892,Kody Funderburk,Minnesota Twins,142,MIN,P,Active
+472610,Luis García,Minnesota Twins,142,MIN,P,Active
+656484,Tristan Gray,Minnesota Twins,142,MIN,3B,Active
+680777,Ryan Jeffers,Minnesota Twins,142,MIN,C,Active
+807712,Luke Keaschall,Minnesota Twins,142,MIN,2B,Active
+687849,Zak Kent,Minnesota Twins,142,MIN,P,Designated for Assignment
+668952,Ryan Kreidler,Minnesota Twins,142,MIN,3B,Reassigned to Minors
+663616,Trevor Larnach,Minnesota Twins,142,MIN,LF,Active
+689520,Cody Laweryson,Minnesota Twins,142,MIN,P,Injured 15-Day
+686797,Brooks Lee,Minnesota Twins,142,MIN,SS,Active
+668904,Royce Lewis,Minnesota Twins,142,MIN,3B,Active
+668885,Austin Martin,Minnesota Twins,142,MIN,LF,Active
+702193,Andrew Morris,Minnesota Twins,142,MIN,P,Active
+641927,Bailey Ober,Minnesota Twins,142,MIN,P,Active
+679358,Eric Orze,Minnesota Twins,142,MIN,P,Active
+681546,James Outman,Minnesota Twins,142,MIN,CF,Active
+687570,Connor Prielipp,Minnesota Twins,142,MIN,P,Active
+573124,Taylor Rogers,Minnesota Twins,142,MIN,P,Active
+696070,Kendry Rojas,Minnesota Twins,142,MIN,P,Reassigned to Minors
+657746,Joe Ryan,Minnesota Twins,142,MIN,P,Active
+663485,Cole Sands,Minnesota Twins,142,MIN,P,Active
+623437,Justin Topa,Minnesota Twins,142,MIN,P,Active
+670242,Matt Wallner,Minnesota Twins,142,MIN,RF,Active
+680573,Simeon Woods Richardson,Minnesota Twins,142,MIN,P,Active
+621237,José Alvarado,Philadelphia Phillies,143,PHI,P,Active
+679775,Kyle Backhus,Philadelphia Phillies,143,PHI,P,Active
+621383,Tanner Banks,Philadelphia Phillies,143,PHI,P,Active
+664761,Alec Bohm,Philadelphia Phillies,143,PHI,3B,Active
+680742,Jonathan Bowlan,Philadelphia Phillies,143,PHI,P,Active
+702222,Justin Crawford,Philadelphia Phillies,143,PHI,CF,Active
+666969,Adolis García,Philadelphia Phillies,143,PHI,RF,Active
+547180,Bryce Harper,Philadelphia Phillies,143,PHI,1B,Active
+676510,Nolan Hoffman,Philadelphia Phillies,143,PHI,P,Reassigned to Minors
+686751,Seth Johnson,Philadelphia Phillies,143,PHI,P,Reassigned to Minors
+641745,Brad Keller,Philadelphia Phillies,143,PHI,P,Active
+805249,Otto Kemp,Philadelphia Phillies,143,PHI,LF,Reassigned to Minors
+689147,Orion Kerkering,Philadelphia Phillies,143,PHI,P,Active
+666200,Jesús Luzardo,Philadelphia Phillies,143,PHI,P,Active
+665561,Rafael Marchán,Philadelphia Phillies,143,PHI,C,Active
+669016,Brandon Marsh,Philadelphia Phillies,143,PHI,LF,Active
+641835,Tim Mayza,Philadelphia Phillies,143,PHI,P,Active
+664238,Dylan Moore,Philadelphia Phillies,143,PHI,CF,Active
+605400,Aaron Nola,Philadelphia Phillies,143,PHI,P,Active
+691725,Andrew Painter,Philadelphia Phillies,143,PHI,P,Active
+647315,Zach Pop,Philadelphia Phillies,143,PHI,P,Injured 15-Day
+660604,Alan Rangel,Philadelphia Phillies,143,PHI,P,Reassigned to Minors
+592663,J.T. Realmuto,Philadelphia Phillies,143,PHI,C,Injured 10-Day
+694025,Felix Reyes,Philadelphia Phillies,143,PHI,LF,Active
+650911,Cristopher Sánchez,Philadelphia Phillies,143,PHI,P,Active
+656941,Kyle Schwarber,Philadelphia Phillies,143,PHI,LF,Active
+663767,Chase Shugart,Philadelphia Phillies,143,PHI,P,Active
+624641,Edmundo Sosa,Philadelphia Phillies,143,PHI,2B,Active
+681082,Bryson Stott,Philadelphia Phillies,143,PHI,2B,Active
+596117,Garrett Stubbs,Philadelphia Phillies,143,PHI,C,Active
+607208,Trea Turner,Philadelphia Phillies,143,PHI,SS,Active
+592836,Taijuan Walker,Philadelphia Phillies,143,PHI,P,Released
+554430,Zack Wheeler,Philadelphia Phillies,143,PHI,P,Active
+660670,Ronald Acuña Jr.,Atlanta Braves,144,ATL,RF,Active
+645277,Ozzie Albies,Atlanta Braves,144,ATL,2B,Active
+686948,Drake Baldwin,Atlanta Braves,144,ATL,C,Active
+674370,Osvaldo Bido,Atlanta Braves,144,ATL,P,Claimed
+607481,Aaron Bummer,Atlanta Braves,144,ATL,P,Active
+471911,Carlos Carrasco,Atlanta Braves,144,ATL,P,Active
+689266,Dylan Dodd,Atlanta Braves,144,ATL,P,Injured 15-Day
+643289,Mauricio Dubón,Atlanta Braves,144,ATL,SS,Active
+693821,Bryce Elder,Atlanta Braves,144,ATL,P,Active
+571657,Kyle Farmer,Atlanta Braves,144,ATL,3B,Active
+800311,Didier Fuentes,Atlanta Braves,144,ATL,P,Active
+641656,Ian Hamilton,Atlanta Braves,144,ATL,P,Minor League Contract
+671739,Michael Harris II,Atlanta Braves,144,ATL,CF,Active
+641680,Jonah Heim,Atlanta Braves,144,ATL,C,Active
+656550,Grant Holmes,Atlanta Braves,144,ATL,P,Active
+628452,Raisel Iglesias,Atlanta Braves,144,ATL,P,Injured 15-Day
+641755,Tyler Kinley,Atlanta Braves,144,ATL,P,Active
+669276,Dylan Lee,Atlanta Braves,144,ATL,P,Paternity List
+625643,Reynaldo López,Atlanta Braves,144,ATL,P,Active
+622761,Jorge Mateo,Atlanta Braves,144,ATL,SS,Active
+691548,Rolddy Muñoz,Atlanta Braves,144,ATL,P,Reassigned to Minors
+621566,Matt Olson,Atlanta Braves,144,ATL,1B,Active
+606303,Joel Payamps,Atlanta Braves,144,ATL,P,Active
+527048,Martín Pérez,Atlanta Braves,144,ATL,P,Active
+663586,Austin Riley,Atlanta Braves,144,ATL,3B,Active
+702275,JR Ritchie,Atlanta Braves,144,ATL,P,Active
+519242,Chris Sale,Atlanta Braves,144,ATL,P,Active
+642086,Dominic Smith,Atlanta Braves,144,ATL,1B,Active
+660761,José Suarez,Atlanta Braves,144,ATL,P,Active
+663158,Robert Suarez,Atlanta Braves,144,ATL,P,Active
+642201,Eli White,Atlanta Braves,144,ATL,CF,Active
+663897,Luke Williams,Atlanta Braves,144,ATL,SS,Minor League Contract
+573262,Mike Yastrzemski,Atlanta Braves,144,ATL,LF,Active
+682668,Luisangel Acuña,Chicago White Sox,145,CWS,CF,Active
+803011,Sam Antonacci,Chicago White Sox,145,CWS,LF,Active
+643217,Andrew Benintendi,Chicago White Sox,145,CWS,LF,Active
+674370,Osvaldo Bido,Chicago White Sox,145,CWS,P,Active
+680732,Sean Burke,Chicago White Sox,145,CWS,P,Active
+686563,Jonathan Cannon,Chicago White Sox,145,CWS,P,Injured 15-Day
+699823,Tyler Davis,Chicago White Sox,145,CWS,P,Active
+701474,Duncan Davitt,Chicago White Sox,145,CWS,P,Reassigned to Minors
+622554,Seranthony Domínguez,Chicago White Sox,145,CWS,P,Active
+685126,Brandon Eisert,Chicago White Sox,145,CWS,P,Reassigned to Minors
+607200,Erick Fedde,Chicago White Sox,145,CWS,P,Active
+656457,Tyler Gilbert,Chicago White Sox,145,CWS,P,Reassigned to Minors
+687957,Dustin Harris,Chicago White Sox,145,CWS,LF,Claimed
+669720,Austin Hays,Chicago White Sox,145,CWS,LF,Active
+663855,Jordan Hicks,Chicago White Sox,145,CWS,P,Active
+656537,Derek Hill,Chicago White Sox,145,CWS,RF,Active
+663542,Bryan Hudson,Chicago White Sox,145,CWS,P,Active
+641743,Anthony Kay,Chicago White Sox,145,CWS,P,Active
+673929,Jordan Leasure,Chicago White Sox,145,CWS,P,Active
+663436,Davis Martin,Chicago White Sox,145,CWS,P,Active
+624512,Reese McGuire,Chicago White Sox,145,CWS,C,Free Agent
+805367,Chase Meidroth,Chicago White Sox,145,CWS,2B,Active
+695657,Colson Montgomery,Chicago White Sox,145,CWS,SS,Active
+808959,Munetaka Murakami,Chicago White Sox,145,CWS,1B,Active
+669684,Chris Murphy,Chicago White Sox,145,CWS,P,Injured 15-Day
+695020,Tanner Murray,Chicago White Sox,145,CWS,LF,Injured 10-Day
+656794,Sean Newcomb,Chicago White Sox,145,CWS,P,Active
+680951,Doug Nikhazy,Chicago White Sox,145,CWS,P,Claimed
+699151,Jedixson Paez,Chicago White Sox,145,CWS,P,Traded
+677592,Everson Pereira,Chicago White Sox,145,CWS,RF,Active
+671976,Tristan Peters,Chicago White Sox,145,CWS,CF,Active
+700337,Edgar Quero,Chicago White Sox,145,CWS,C,Active
+691011,Drew Romo,Chicago White Sox,145,CWS,C,Active
+702273,Noah Schultz,Chicago White Sox,145,CWS,P,Active
+805326,Tyler Schweitzer,Chicago White Sox,145,CWS,P,Reassigned to Minors
+608371,Lucas Sims,Chicago White Sox,145,CWS,P,Minor League Contract
+681343,Shane Smith,Chicago White Sox,145,CWS,P,Reassigned to Minors
+672820,Lenyn Sosa,Chicago White Sox,145,CWS,2B,Traded
+691799,Grant Taylor,Chicago White Sox,145,CWS,P,Active
+678246,Miguel Vargas,Chicago White Sox,145,CWS,3B,Active
+645261,Sandy Alcantara,Miami Marlins,146,MIA,P,Active
+669199,Lake Bachar,Miami Marlins,146,MIA,P,Active
+669622,Anthony Bender,Miami Marlins,146,MIA,P,Active
+683357,Owen Caissie,Miami Marlins,146,MIA,RF,Active
+665052,Griffin Conine,Miami Marlins,146,MIA,LF,Injured 10-Day
+691277,Deyvison De Los Santos,Miami Marlins,146,MIA,1B,Reassigned to Minors
+669364,Xavier Edwards,Miami Marlins,146,MIA,2B,Active
+664126,Pete Fairbanks,Miami Marlins,146,MIA,P,Injured 15-Day
+676534,Calvin Faucher,Miami Marlins,146,MIA,P,Active
+687473,Ryan Gusto,Miami Marlins,146,MIA,P,Reassigned to Minors
+681715,Heriberto Hernández,Miami Marlins,146,MIA,LF,Reassigned to Minors
+689414,Liam Hicks,Miami Marlins,146,MIA,C,Active
+677870,Leo Jiménez,Miami Marlins,146,MIA,2B,Active
+676083,Janson Junk,Miami Marlins,146,MIA,P,Active
+667463,John King,Miami Marlins,146,MIA,P,Active
+672640,Otto Lopez,Miami Marlins,146,MIA,SS,Active
+805300,Jakob Marsee,Miami Marlins,146,MIA,CF,Active
+676974,Max Meyer,Miami Marlins,146,MIA,P,Active
+666624,Christopher Morel,Miami Marlins,146,MIA,LF,Active
+677053,Andrew Nardi,Miami Marlins,146,MIA,P,Active
+681393,Connor Norby,Miami Marlins,146,MIA,1B,Active
+663978,Chris Paddack,Miami Marlins,146,MIA,P,Active
+688363,Graham Pauley,Miami Marlins,146,MIA,3B,Active
+691587,Eury Pérez,Miami Marlins,146,MIA,P,Active
+656848,Michael Petersen,Miami Marlins,146,MIA,P,Active
+663969,Tyler Phillips,Miami Marlins,146,MIA,P,Active
+682663,Agustín Ramírez,Miami Marlins,146,MIA,C,Active
+665923,Esteury Ruiz,Miami Marlins,146,MIA,CF,Active
+691594,Javier Sanoja,Miami Marlins,146,MIA,3B,Active
+596103,Austin Slater,Miami Marlins,146,MIA,LF,Minor League Contract
+669065,Kyle Stowers,Miami Marlins,146,MIA,LF,Active
+670280,David Bednar,New York Yankees,147,NYY,P,Active
+641355,Cody Bellinger,New York Yankees,147,NYY,LF,Active
+656234,Jake Bird,New York Yankees,147,NYY,P,Active
+621112,Paul Blackburn,New York Yankees,147,NYY,P,Active
+676609,José Caballero,New York Yankees,147,NYY,SS,Active
+665862,Jazz Chisholm Jr.,New York Yankees,147,NYY,2B,Active
+683409,Angel Chivilli,New York Yankees,147,NYY,P,Injured 15-Day
+518585,Fernando Cruz,New York Yankees,147,NYY,P,Active
+660787,Yerry De los Santos,New York Yankees,147,NYY,P,Reassigned to Minors
+691176,Jasson Domínguez,New York Yankees,147,NYY,LF,Active
+666808,Camilo Doval,New York Yankees,147,NYY,P,Active
+641555,J.C. Escarra,New York Yankees,147,NYY,C,Active
+608331,Max Fried,New York Yankees,147,NYY,P,Active
+661563,Luis Gil,New York Yankees,147,NYY,P,Reassigned to Minors
+502671,Paul Goldschmidt,New York Yankees,147,NYY,1B,Active
+545341,Randal Grichuk,New York Yankees,147,NYY,LF,Active
+663757,Trent Grisham,New York Yankees,147,NYY,CF,Active
+687396,Brent Headrick,New York Yankees,147,NYY,P,Active
+657612,Tim Hill,New York Yankees,147,NYY,P,Active
+592450,Aaron Judge,New York Yankees,147,NYY,RF,Active
+641857,Ryan McMahon,New York Yankees,147,NYY,3B,Active
+700250,Ben Rice,New York Yankees,147,NYY,1B,Active
+642708,Amed Rosario,New York Yankees,147,NYY,3B,Active
+693645,Cam Schlittler,New York Yankees,147,NYY,P,Active
+519317,Giancarlo Stanton,New York Yankees,147,NYY,DH,Injured 10-Day
+701542,Will Warren,New York Yankees,147,NYY,P,Active
+677960,Ryan Weathers,New York Yankees,147,NYY,P,Active
+669224,Austin Wells,New York Yankees,147,NYY,C,Active
+642232,Ryan Yarbrough,New York Yankees,147,NYY,P,Active
+681982,Grant Anderson,Milwaukee Brewers,158,MIL,P,Active
+676879,Aaron Ashby,Milwaukee Brewers,158,MIL,P,Active
+641343,Jake Bauers,Milwaukee Brewers,158,MIL,1B,Active
+672012,Tyler Black,Milwaukee Brewers,158,MIL,3B,Active
+661388,William Contreras,Milwaukee Brewers,158,MIL,C,Active
+689441,Coleman Crow,Milwaukee Brewers,158,MIL,P,Reassigned to Minors
+675660,Shane Drohan,Milwaukee Brewers,158,MIL,P,Active
+686217,Sal Frelick,Milwaukee Brewers,158,MIL,RF,Active
+669084,DL Hall,Milwaukee Brewers,158,MIL,P,Active
+666152,David Hamilton,Milwaukee Brewers,158,MIL,3B,Active
+690986,Kyle Harrison,Milwaukee Brewers,158,MIL,P,Active
+701656,Logan Henderson,Milwaukee Brewers,158,MIL,P,Reassigned to Minors
+675659,Greg Jones,Milwaukee Brewers,158,MIL,LF,Active
+657649,Jared Koenig,Milwaukee Brewers,158,MIL,P,Injured 15-Day
+663604,Brandon Lockridge,Milwaukee Brewers,158,MIL,LF,Active
+682641,Luis Matos,Milwaukee Brewers,158,MIL,RF,Designated for Assignment
+668834,Easton McGee,Milwaukee Brewers,158,MIL,P,Reassigned to Minors
+656730,Trevor Megill,Milwaukee Brewers,158,MIL,P,Active
+694819,Jacob Misiorowski,Milwaukee Brewers,158,MIL,P,Active
+669003,Garrett Mitchell,Milwaukee Brewers,158,MIL,CF,Active
+687401,Joey Ortiz,Milwaukee Brewers,158,MIL,SS,Active
+694477,Chad Patrick,Milwaukee Brewers,158,MIL,P,Active
+663368,Blake Perkins,Milwaukee Brewers,158,MIL,LF,Active
+691620,Jeferson Quero,Milwaukee Brewers,158,MIL,C,Reassigned to Minors
+650859,Luis Rengifo,Milwaukee Brewers,158,MIL,3B,Active
+692230,Carlos Rodriguez,Milwaukee Brewers,158,MIL,P,Reassigned to Minors
+596142,Gary Sánchez,Milwaukee Brewers,158,MIL,C,Active
+687075,Brandon Sproat,Milwaukee Brewers,158,MIL,P,Active
+668930,Brice Turang,Milwaukee Brewers,158,MIL,2B,Active
+682842,Abner Uribe,Milwaukee Brewers,158,MIL,P,Active
+683734,Andrew Vaughn,Milwaukee Brewers,158,MIL,1B,Injured 10-Day
+663765,Jake Woodford,Milwaukee Brewers,158,MIL,P,Active
+605540,Brandon Woodruff,Milwaukee Brewers,158,MIL,P,Active
+592885,Christian Yelich,Milwaukee Brewers,158,MIL,LF,Injured 10-Day
+672582,Angel Zerpa,Milwaukee Brewers,158,MIL,P,Active
+666176,Jo Adell,Los Angeles Angels,108,LAA,RF,Active
+691951,Sam Aldegheri,Los Angeles Angels,108,LAA,P,Reassigned to Minors
+641312,Shaun Anderson,Los Angeles Angels,108,LAA,P,Minor League Contract
+696147,Sam Bachman,Los Angeles Angels,108,LAA,P,Active
+600869,Jeimer Candelario,Los Angeles Angels,108,LAA,3B,Minor League Contract
+672282,Reid Detmers,Los Angeles Angels,108,LAA,P,Active
+815083,Mitch Farris,Los Angeles Angels,108,LAA,P,Reassigned to Minors
+820862,José Fermin,Los Angeles Angels,108,LAA,P,Active
+624428,Adam Frazier,Los Angeles Angels,108,LAA,2B,Active
+687093,Vaughn Grissom,Los Angeles Angels,108,LAA,2B,Active
+696270,Ryan Johnson,Los Angeles Angels,108,LAA,P,Injured 15-Day
+579328,Yusei Kikuchi,Los Angeles Angels,108,LAA,P,Active
+691946,George Klassen,Los Angeles Angels,108,LAA,P,Reassigned to Minors
+686799,Jack Kochanowicz,Los Angeles Angels,108,LAA,P,Active
+666139,Josh Lowe,Los Angeles Angels,108,LAA,LF,Active
+664192,Joey Lucchesi,Los Angeles Angels,108,LAA,P,Active
+660162,Yoán Moncada,Los Angeles Angels,108,LAA,3B,Active
+687263,Zach Neto,Los Angeles Angels,108,LAA,SS,Active
+681351,Logan O'Hoppe,Los Angeles Angels,108,LAA,C,Injured 10-Day
+672724,Oswald Peraza,Los Angeles Angels,108,LAA,2B,Active
+519141,Drew Pomeranz,Los Angeles Angels,108,LAA,P,Active
+665861,Sebastián Rivero,Los Angeles Angels,108,LAA,C,Active
+605447,Jordan Romano,Los Angeles Angels,108,LAA,P,Released
+680704,Nick Sandlin,Los Angeles Angels,108,LAA,P,Active
+694384,Nolan Schanuel,Los Angeles Angels,108,LAA,1B,Active
+681217,Chase Silseth,Los Angeles Angels,108,LAA,P,Active
+624585,Jorge Soler,Los Angeles Angels,108,LAA,RF,Active
+667755,José Soriano,Los Angeles Angels,108,LAA,P,Active
+608718,Brent Suter,Los Angeles Angels,108,LAA,P,Active
+669326,Bryce Teodosio,Los Angeles Angels,108,LAA,LF,Active
+545361,Mike Trout,Los Angeles Angels,108,LAA,CF,Active
+700712,Walbert Urena,Los Angeles Angels,108,LAA,P,Active
+666171,Ryan Zeferjahn,Los Angeles Angels,108,LAA,P,Active
+518595,Travis d'Arnaud,Los Angeles Angels,108,LAA,C,Active
+571448,Nolan Arenado,Arizona Diamondbacks,109,AZ,3B,Active
+663609,Luken Baker,Arizona Diamondbacks,109,AZ,1B,Minor League Contract
+678489,Jorge Barrosa,Arizona Diamondbacks,109,AZ,LF,Active
+682998,Corbin Carroll,Arizona Diamondbacks,109,AZ,RF,Active
+664199,Taylor Clarke,Arizona Diamondbacks,109,AZ,P,Active
+680728,Adrian Del Castillo,Arizona Diamondbacks,109,AZ,C,Active
+699912,Jose Fernandez,Arizona Diamondbacks,109,AZ,1B,Active
+668678,Zac Gallen,Arizona Diamondbacks,109,AZ,P,Active
+605244,Aramis Garcia,Arizona Diamondbacks,109,AZ,C,Active
+656464,Kevin Ginkel,Arizona Diamondbacks,109,AZ,P,Active
+666971,Lourdes Gurriel Jr.,Arizona Diamondbacks,109,AZ,LF,Active
+694851,Andrew Hoffmann,Arizona Diamondbacks,109,AZ,P,Active
+518876,Merrill Kelly,Arizona Diamondbacks,109,AZ,P,Active
+691783,Jordan Lawlar,Arizona Diamondbacks,109,AZ,LF,Injured 60-Day
+642528,Jonathan Loáisiga,Arizona Diamondbacks,109,AZ,P,Active
+606466,Ketel Marte,Arizona Diamondbacks,109,AZ,2B,Active
+543510,James McCann,Arizona Diamondbacks,109,AZ,C,Active
+672515,Gabriel Moreno,Arizona Diamondbacks,109,AZ,C,Injured 10-Day
+666661,Juan Morillo,Arizona Diamondbacks,109,AZ,P,Active
+669194,Ryne Nelson,Arizona Diamondbacks,109,AZ,P,Active
+672695,Geraldo Perdomo,Arizona Diamondbacks,109,AZ,SS,Active
+694297,Brandon Pfaadt,Arizona Diamondbacks,109,AZ,P,Active
+688497,Taylor Rashi,Arizona Diamondbacks,109,AZ,P,Reassigned to Minors
+593958,Eduardo Rodriguez,Arizona Diamondbacks,109,AZ,P,Active
+605452,Joe Ross,Arizona Diamondbacks,109,AZ,P,Minor League Contract
+467793,Carlos Santana,Arizona Diamondbacks,109,AZ,1B,Injured 10-Day
+623149,Paul Sewald,Arizona Diamondbacks,109,AZ,P,Active
+656976,Pavin Smith,Arizona Diamondbacks,109,AZ,1B,Injured 60-Day
+647336,Michael Soroka,Arizona Diamondbacks,109,AZ,P,Active
+694374,Tim Tawa,Arizona Diamondbacks,109,AZ,LF,Active
+677950,Alek Thomas,Arizona Diamondbacks,109,AZ,CF,Active
+657044,Ryan Thompson,Arizona Diamondbacks,109,AZ,P,Active
+545121,Ildemaro Vargas,Arizona Diamondbacks,109,AZ,1B,Active
+669211,Keegan Akin,Baltimore Orioles,110,BAL,P,Active
+677942,Blaze Alexander,Baltimore Orioles,110,BAL,3B,Active
+624413,Pete Alonso,Baltimore Orioles,110,BAL,1B,Active
+694212,Samuel Basallo,Baltimore Orioles,110,BAL,C,Active
+605135,Chris Bassitt,Baltimore Orioles,110,BAL,P,Active
+669358,Shane Baz,Baltimore Orioles,110,BAL,P,Active
+687637,Dylan Beavers,Baltimore Orioles,110,BAL,RF,Active
+680694,Kyle Bradish,Baltimore Orioles,110,BAL,P,Active
+666974,Yennier Cano,Baltimore Orioles,110,BAL,P,Active
+681297,Colton Cowser,Baltimore Orioles,110,BAL,RF,Active
+621107,Zach Eflin,Baltimore Orioles,110,BAL,P,Injured 60-Day
+608650,Dietrich Enns,Baltimore Orioles,110,BAL,P,Injured 15-Day
+671382,Cameron Foster,Baltimore Orioles,110,BAL,P,Reassigned to Minors
+670329,Rico Garcia,Baltimore Orioles,110,BAL,P,Active
+664854,Ryan Helsley,Baltimore Orioles,110,BAL,P,Active
+683002,Gunnar Henderson,Baltimore Orioles,110,BAL,SS,Active
+682274,Yaramil Hiraldo,Baltimore Orioles,110,BAL,P,Injured 60-Day
+669087,Sam Huff,Baltimore Orioles,110,BAL,C,Minor League Contract
+669236,Jeremiah Jackson,Baltimore Orioles,110,BAL,2B,Active
+552640,Andrew Kittredge,Baltimore Orioles,110,BAL,P,Active
+665152,Dean Kremer,Baltimore Orioles,110,BAL,P,Injured 15-Day
+691723,Coby Mayo,Baltimore Orioles,110,BAL,3B,Active
+663624,Ryan Mountcastle,Baltimore Orioles,110,BAL,1B,Injured 60-Day
+689296,Anthony Nunez,Baltimore Orioles,110,BAL,P,Active
+641933,Tyler O'Neill,Baltimore Orioles,110,BAL,RF,Active
+700249,Cade Povich,Baltimore Orioles,110,BAL,P,Reassigned to Minors
+675919,Nick Raquet,Baltimore Orioles,110,BAL,P,Reassigned to Minors
+671286,Johnathan Rodríguez,Baltimore Orioles,110,BAL,RF,Reassigned to Minors
+669432,Trevor Rogers,Baltimore Orioles,110,BAL,P,Active
+668939,Adley Rutschman,Baltimore Orioles,110,BAL,C,Active
+544150,Albert Suárez,Baltimore Orioles,110,BAL,P,Designated for Assignment
+665750,Leody Taveras,Baltimore Orioles,110,BAL,CF,Active
+621493,Taylor Ward,Baltimore Orioles,110,BAL,LF,Active
+669330,Tyler Wells,Baltimore Orioles,110,BAL,P,Active
+642215,Weston Wilson,Baltimore Orioles,110,BAL,3B,Active
+664991,Grant Wolfram,Baltimore Orioles,110,BAL,P,Active
+687064,Brandon Young,Baltimore Orioles,110,BAL,P,Active
+677800,Wilyer Abreu,Boston Red Sox,111,BOS,RF,Active
+681252,Jack Anderson,Boston Red Sox,111,BOS,P,Reassigned to Minors
+701350,Roman Anthony,Boston Red Sox,111,BOS,LF,Active
+678394,Brayan Bello,Boston Red Sox,111,BOS,P,Active
+547973,Aroldis Chapman,Boston Red Sox,111,BOS,P,Active
+575929,Willson Contreras,Boston Red Sox,111,BOS,1B,Active
+543056,Danny Coulombe,Boston Red Sox,111,BOS,P,Active
+676979,Garrett Crochet,Boston Red Sox,111,BOS,P,Active
+680776,Jarren Duran,Boston Red Sox,111,BOS,LF,Active
+702332,Caleb Durbin,Boston Red Sox,111,BOS,3B,Active
+813349,Connelly Early,Boston Red Sox,111,BOS,P,Active
+543243,Sonny Gray,Boston Red Sox,111,BOS,P,Injured 15-Day
+677161,Zack Kelly,Boston Red Sox,111,BOS,P,Active
+643396,Isiah Kiner-Falefa,Boston Red Sox,111,BOS,2B,Active
+691785,Marcelo Mayer,Boston Red Sox,111,BOS,2B,Active
+655316,Andruw Monasterio,Boston Red Sox,111,BOS,SS,Active
+663558,Jovani Morán,Boston Red Sox,111,BOS,P,Active
+665966,Carlos Narváez,Boston Red Sox,111,BOS,C,Active
+670912,Johan Oviedo,Boston Red Sox,111,BOS,P,Injured 60-Day
+678882,Ceddanne Rafaela,Boston Red Sox,111,BOS,CF,Active
+700842,Eduardo Rivera,Boston Red Sox,111,BOS,P,Reassigned to Minors
+701719,Tyler Samaniego,Boston Red Sox,111,BOS,P,Active
+686580,Justin Slaten,Boston Red Sox,111,BOS,P,Injured 15-Day
+596115,Trevor Story,Boston Red Sox,111,BOS,SS,Active
+624133,Ranger Suarez,Boston Red Sox,111,BOS,P,Active
+801139,Payton Tolle,Boston Red Sox,111,BOS,P,Active
+700413,Tyler Uberstine,Boston Red Sox,111,BOS,P,Reassigned to Minors
+670245,Ryan Watson,Boston Red Sox,111,BOS,P,Active
+669711,Greg Weissert,Boston Red Sox,111,BOS,P,Active
+676477,Garrett Whitlock,Boston Red Sox,111,BOS,P,Active
+657136,Connor Wong,Boston Red Sox,111,BOS,C,Active
+807799,Masataka Yoshida,Boston Red Sox,111,BOS,LF,Active
+665804,Miguel Amaya,Chicago Cubs,112,CHC,C,Active
+665871,Javier Assad,Chicago Cubs,112,CHC,P,Active
+694208,Moisés Ballesteros,Chicago Cubs,112,CHC,C,Active
+656212,Charlie Barnes,Chicago Cubs,112,CHC,P,Reassigned to Minors
+571510,Matthew Boyd,Chicago Cubs,112,CHC,P,Active
+608324,Alex Bregman,Chicago Cubs,112,CHC,3B,Active
+676962,Ben Brown,Chicago Cubs,112,CHC,P,Active
+683737,Michael Busch,Chicago Cubs,112,CHC,1B,Active
+665795,Edward Cabrera,Chicago Cubs,112,CHC,P,Active
+666185,Dylan Carlson,Chicago Cubs,112,CHC,LF,Minor League Contract
+624424,Michael Conforto,Chicago Cubs,112,CHC,RF,Active
+691718,Pete Crow-Armstrong,Chicago Cubs,112,CHC,CF,Active
+664023,Ian Happ,Chicago Cubs,112,CHC,LF,Active
+640451,Hunter Harvey,Chicago Cubs,112,CHC,P,Injured 15-Day
+663538,Nico Hoerner,Chicago Cubs,112,CHC,2B,Active
+690990,Cade Horton,Chicago Cubs,112,CHC,P,Injured 60-Day
+684007,Shota Imanaga,Chicago Cubs,112,CHC,P,Active
+608348,Carson Kelly,Chicago Cubs,112,CHC,C,Active
+664068,Scott Kingery,Chicago Cubs,112,CHC,3B,Minor League Contract
+681432,Luke Little,Chicago Cubs,112,CHC,P,Reassigned to Minors
+670032,Nicky Lopez,Chicago Cubs,112,CHC,3B,Active
+656686,Corbin Martin,Chicago Cubs,112,CHC,P,Active
+702303,Riley Martin,Chicago Cubs,112,CHC,P,Injured 15-Day
+664208,Phil Maton,Chicago Cubs,112,CHC,P,Active
+571948,Hoby Milner,Chicago Cubs,112,CHC,P,Active
+607067,Colin Rea,Chicago Cubs,112,CHC,P,Active
+605441,Yacksel Ríos,Chicago Cubs,112,CHC,P,Active
+681799,Ethan Roberts,Chicago Cubs,112,CHC,P,Injured 15-Day
+669020,Ryan Rolison,Chicago Cubs,112,CHC,P,Active
+807713,Matt Shaw,Chicago Cubs,112,CHC,RF,Active
+673548,Seiya Suzuki,Chicago Cubs,112,CHC,RF,Active
+621020,Dansby Swanson,Chicago Cubs,112,CHC,SS,Active
+592791,Jameson Taillon,Chicago Cubs,112,CHC,P,Active
+573204,Caleb Thielbar,Chicago Cubs,112,CHC,P,Injured 15-Day
+592826,Vince Velasquez,Chicago Cubs,112,CHC,P,Minor League Contract
+657097,Jacob Webb,Chicago Cubs,112,CHC,P,Active
+671096,Andrew Abbott,Cincinnati Reds,113,CIN,P,Active
+668933,Graham Ashcraft,Cincinnati Reds,113,CIN,P,Active
+666181,Will Benson,Cincinnati Reds,113,CIN,RF,Active
+668709,JJ Bleday,Cincinnati Reds,113,CIN,LF,Active
+656271,Brock Burke,Cincinnati Reds,113,CIN,P,Active
+695505,Chase Burns,Cincinnati Reds,113,CIN,P,Active
+682829,Elly De La Cruz,Cincinnati Reds,113,CIN,SS,Active
+683742,Jose Franco,Cincinnati Reds,113,CIN,P,Active
+670770,TJ Friedl,Cincinnati Reds,113,CIN,CF,Active
+663647,Ke'Bryan Hayes,Cincinnati Reds,113,CIN,3B,Active
+664731,P.J. Higgins,Cincinnati Reds,113,CIN,C,Reassigned to Minors
+677956,Rece Hinds,Cincinnati Reds,113,CIN,RF,Active
+572955,Pierce Johnson,Cincinnati Reds,113,CIN,P,Active
+695076,Rhett Lowder,Cincinnati Reds,113,CIN,P,Active
+663993,Nathaniel Lowe,Cincinnati Reds,113,CIN,1B,Active
+682622,Noelvi Marte,Cincinnati Reds,113,CIN,RF,Reassigned to Minors
+680574,Matt McLain,Cincinnati Reds,113,CIN,2B,Active
+594580,Sam Moll,Cincinnati Reds,113,CIN,P,Active
+667472,Dane Myers,Cincinnati Reds,113,CIN,CF,Active
+693312,Kyle Nicolas,Cincinnati Reds,113,CIN,P,Reassigned to Minors
+641941,Emilio Pagán,Cincinnati Reds,113,CIN,P,Active
+683175,Connor Phillips,Cincinnati Reds,113,CIN,P,Active
+663574,Tony Santillan,Cincinnati Reds,113,CIN,P,Active
+663903,Brady Singer,Cincinnati Reds,113,CIN,P,Active
+668715,Spencer Steer,Cincinnati Reds,113,CIN,LF,Active
+663886,Tyler Stephenson,Cincinnati Reds,113,CIN,C,Active
+701398,Sal Stewart,Cincinnati Reds,113,CIN,1B,Active
+553993,Eugenio Suárez,Cincinnati Reds,113,CIN,3B,Injured 10-Day
+624431,Jose Trevino,Cincinnati Reds,113,CIN,C,Active
+682227,Brandon Williamson,Cincinnati Reds,113,CIN,P,Active
+663465,Kolby Allard,Cleveland Guardians,114,CLE,P,Minor League Contract
+672356,Gabriel Arias,Cleveland Guardians,114,CLE,SS,Injured 10-Day
+542888,Shawn Armstrong,Cleveland Guardians,114,CLE,P,Injured 15-Day
+683953,Travis Bazzana,Cleveland Guardians,114,CLE,2B,Active
+676440,Tanner Bibee,Cleveland Guardians,114,CLE,P,Active
+682877,Juan Brito,Cleveland Guardians,114,CLE,2B,Reassigned to Minors
+641401,Connor Brogdon,Cleveland Guardians,114,CLE,P,Active
+676282,Joey Cantillo,Cleveland Guardians,114,CLE,P,Active
+677944,Slade Cecconi,Cleveland Guardians,114,CLE,P,Active
+800050,Chase DeLauter,Cleveland Guardians,114,CLE,RF,Active
+670036,Matt Festa,Cleveland Guardians,114,CLE,P,Active
+681807,David Fry,Cleveland Guardians,114,CLE,RF,Active
+683769,Hunter Gaddis,Cleveland Guardians,114,CLE,P,Active
+595978,Austin Hedges,Cleveland Guardians,114,CLE,C,Active
+682120,Tim Herrin,Cleveland Guardians,114,CLE,P,Active
+670059,Colin Holderman,Cleveland Guardians,114,CLE,P,Active
+656555,Rhys Hoskins,Cleveland Guardians,114,CLE,1B,Active
+692216,CJ Kayfus,Cleveland Guardians,114,CLE,LF,Reassigned to Minors
+680757,Steven Kwan,Cleveland Guardians,114,CLE,CF,Active
+700932,Kyle Manzardo,Cleveland Guardians,114,CLE,1B,Active
+682657,Angel Martínez,Cleveland Guardians,114,CLE,LF,Active
+800048,Parker Messick,Cleveland Guardians,114,CLE,P,Active
+666310,Bo Naylor,Cleveland Guardians,114,CLE,C,Active
+688883,Peyton Pallette,Cleveland Guardians,114,CLE,P,Active
+608070,José Ramírez,Cleveland Guardians,114,CLE,3B,Active
+677587,Brayan Rocchio,Cleveland Guardians,114,CLE,SS,Active
+681870,Erik Sabrowski,Cleveland Guardians,114,CLE,P,Active
+682177,Daniel Schneemann,Cleveland Guardians,114,CLE,CF,Active
+671922,Cade Smith,Cleveland Guardians,114,CLE,P,Active
+671655,George Valera,Cleveland Guardians,114,CLE,LF,Active
+668909,Gavin Williams,Cleveland Guardians,114,CLE,P,Active
+688642,Zach Agnos,Colorado Rockies,115,COL,P,Active
+687597,Jordan Beck,Colorado Rockies,115,COL,LF,Active
+678368,Valente Bellozo,Colorado Rockies,115,COL,P,Reassigned to Minors
+657514,Brennan Bernardino,Colorado Rockies,115,COL,P,Active
+650489,Willi Castro,Colorado Rockies,115,COL,2B,Active
+801403,Chase Dollander,Colorado Rockies,115,COL,P,Active
+686668,Brenton Doyle,Colorado Rockies,115,COL,CF,Active
+663372,Ryan Feltner,Colorado Rockies,115,COL,P,Injured 15-Day
+607536,Kyle Freeland,Colorado Rockies,115,COL,P,Active
+671289,Tyler Freeman,Colorado Rockies,115,COL,RF,Active
+690924,Braxton Fulford,Colorado Rockies,115,COL,C,Reassigned to Minors
+696100,Hunter Goodman,Colorado Rockies,115,COL,C,Active
+685299,Tanner Gordon,Colorado Rockies,115,COL,P,Active
+678020,Seth Halvorsen,Colorado Rockies,115,COL,P,Reassigned to Minors
+623474,Jimmy Herget,Colorado Rockies,115,COL,P,Active
+677955,Jaden Hill,Colorado Rockies,115,COL,P,Active
+687859,Troy Johnston,Colorado Rockies,115,COL,RF,Active
+666397,Edouard Julien,Colorado Rockies,115,COL,2B,Active
+691720,Kyle Karros,Colorado Rockies,115,COL,3B,Active
+547179,Michael Lorenzen,Colorado Rockies,115,COL,P,Active
+664983,Jake McCarthy,Colorado Rockies,115,COL,LF,Active
+675848,Juan Mejia,Colorado Rockies,115,COL,P,Active
+666160,Mickey Moniak,Colorado Rockies,115,COL,LF,Active
+500779,Jose Quintana,Colorado Rockies,115,COL,P,Active
+690022,Ryan Ritter,Colorado Rockies,115,COL,2B,Reassigned to Minors
+681198,TJ Rumfield,Colorado Rockies,115,COL,1B,Active
+622608,Antonio Senzatela,Colorado Rockies,115,COL,P,Active
+608372,Tomoyuki Sugano,Colorado Rockies,115,COL,P,Active
+664954,Brett Sullivan,Colorado Rockies,115,COL,C,Active
+678662,Ezequiel Tovar,Colorado Rockies,115,COL,SS,Active
+680767,Victor Vodnik,Colorado Rockies,115,COL,P,Active
+623454,Drew Anderson,Detroit Tigers,116,DET,P,Active
+595879,Javier Báez,Detroit Tigers,116,DET,SS,Active
+681481,Kerry Carpenter,Detroit Tigers,116,DET,RF,Active
+646241,Enmanuel De Jesus,Detroit Tigers,116,DET,P,Reassigned to Minors
+693307,Dillon Dingler,Detroit Tigers,116,DET,C,Active
+640448,Kyle Finnegan,Detroit Tigers,116,DET,P,Active
+656427,Jack Flaherty,Detroit Tigers,116,DET,P,Active
+682985,Riley Greene,Detroit Tigers,116,DET,LF,Active
+669724,Brenan Hanifee,Detroit Tigers,116,DET,P,Active
+663947,Tyler Holton,Detroit Tigers,116,DET,P,Active
+676428,Brant Hurter,Detroit Tigers,116,DET,P,Active
+445276,Kenley Jansen,Detroit Tigers,116,DET,P,Active
+663330,Jahmai Jones,Detroit Tigers,116,DET,RF,Active
+690993,Colt Keith,Detroit Tigers,116,DET,3B,Active
+701678,Hao-Yu  Lee,Detroit Tigers,116,DET,3B,Active
+805808,Kevin McGonigle,Detroit Tigers,116,DET,SS,Active
+656716,Zach McKinstry,Detroit Tigers,116,DET,2B,Injured 10-Day
+678009,Parker Meadows,Detroit Tigers,116,DET,CF,Injured 60-Day
+663554,Casey Mize,Detroit Tigers,116,DET,P,Active
+672456,Keider Montero,Detroit Tigers,116,DET,P,Active
+672761,Wenceel Pérez,Detroit Tigers,116,DET,RF,Active
+668670,Jake Rogers,Detroit Tigers,116,DET,C,Active
+657756,Connor Seabold,Detroit Tigers,116,DET,P,Injured 15-Day
+669373,Tarik Skubal,Detroit Tigers,116,DET,P,Active
+572143,Burch Smith,Detroit Tigers,116,DET,P,Active
+679529,Spencer Torkelson,Detroit Tigers,116,DET,1B,Active
+650402,Gleyber Torres,Detroit Tigers,116,DET,2B,Active
+664285,Framber Valdez,Detroit Tigers,116,DET,P,Active
+434378,Justin Verlander,Detroit Tigers,116,DET,P,Injured 15-Day
+676684,Will Vest,Detroit Tigers,116,DET,P,Active
+663837,Matt Vierling,Detroit Tigers,116,DET,CF,Active
+650556,Bryan Abreu,Houston Astros,117,HOU,P,Active
+669397,Nick Allen,Houston Astros,117,HOU,SS,Injured 10-Day
+514888,Jose Altuve,Houston Astros,117,HOU,2B,Active
+670541,Yordan Alvarez,Houston Astros,117,HOU,LF,Active
+681293,Spencer Arrighetti,Houston Astros,117,HOU,P,Active
+805123,AJ Blubaugh,Houston Astros,117,HOU,P,Active
+675989,Cody Bolton,Houston Astros,117,HOU,P,Injured 15-Day
+686613,Hunter Brown,Houston Astros,117,HOU,P,Injured 15-Day
+681347,Mike Burrows,Houston Astros,117,HOU,P,Active
+621043,Carlos Correa,Houston Astros,117,HOU,SS,Active
+660853,Enyel De Los Santos,Houston Astros,117,HOU,P,Active
+673237,Yainer Diaz,Houston Astros,117,HOU,C,Active
+641585,J.P. France,Houston Astros,117,HOU,P,Minor League Contract
+676467,Colton Gordon,Houston Astros,117,HOU,P,Reassigned to Minors
+687957,Dustin Harris,Houston Astros,117,HOU,LF,Active
+837227,Tatsuya Imai,Houston Astros,117,HOU,P,Injured 15-Day
+664299,Cristian Javier,Houston Astros,117,HOU,P,Injured 60-Day
+669288,Daniel Johnson,Houston Astros,117,HOU,CF,Active
+687911,Bryan King,Houston Astros,117,HOU,P,Active
+663567,Peter Lambert,Houston Astros,117,HOU,P,Active
+694388,Joey Loperfido,Houston Astros,117,HOU,LF,Injured 10-Day
+694728,Brice Matthews,Houston Astros,117,HOU,LF,Active
+621121,Lance McCullers Jr.,Houston Astros,117,HOU,P,Active
+676694,Jake Meyers,Houston Astros,117,HOU,CF,Injured 10-Day
+682610,Roddery Muñoz,Houston Astros,117,HOU,P,Minor League Contract
+681151,Jayden Murray,Houston Astros,117,HOU,P,Active
+595345,Steven Okert,Houston Astros,117,HOU,P,Active
+670623,Isaac Paredes,Houston Astros,117,HOU,3B,Active
+665161,Jeremy Peña,Houston Astros,117,HOU,SS,Injured 10-Day
+685005,Christian Roa,Houston Astros,117,HOU,P,Claimed
+669699,Braden Shewmake,Houston Astros,117,HOU,2B,Active
+701358,Cam Smith,Houston Astros,117,HOU,RF,Active
+656986,Bennett Sousa,Houston Astros,117,HOU,P,Active
+678906,Kai-Wei Teng,Houston Astros,117,HOU,P,Active
+666211,Taylor Trammell,Houston Astros,117,HOU,CF,Injured 10-Day
+543877,Christian Vázquez,Houston Astros,117,HOU,C,Active
+572233,Christian Walker,Houston Astros,117,HOU,1B,Active
+680802,Ryan Weiss,Houston Astros,117,HOU,P,Active
+694376,Shay Whitcomb,Houston Astros,117,HOU,3B,Active
+679883,Luinder Avila,Kansas City Royals,118,KC,P,Active
+696131,Mason Black,Kansas City Royals,118,KC,P,Active
+663460,Kris Bubic,Kansas City Royals,118,KC,P,Active
+695506,Jac Caglianone,Kansas City Royals,118,KC,RF,Active
+702070,Noah Cameron,Kansas City Royals,118,KC,P,Active
+686555,Isaac Collins,Kansas City Royals,118,KC,LF,Active
+674444,Steven Cruz,Kansas City Royals,118,KC,P,Reassigned to Minors
+553869,Elias Díaz,Kansas City Royals,118,KC,C,Active
+668674,Lucas Erceg,Kansas City Royals,118,KC,P,Active
+608032,Carlos Estévez,Kansas City Royals,118,KC,P,Injured 15-Day
+663559,Bailey Falter,Kansas City Royals,118,KC,P,Injured 15-Day
+672580,Maikel Garcia,Kansas City Royals,118,KC,3B,Active
+663697,Jonathan India,Kansas City Royals,118,KC,2B,Injured 10-Day
+664728,Kyle Isbel,Kansas City Royals,118,KC,CF,Active
+695600,Carter Jensen,Kansas City Royals,118,KC,C,Active
+656638,Alex Lange,Kansas City Royals,118,KC,P,Active
+679845,Nick Loftin,Kansas City Royals,118,KC,3B,Active
+607625,Seth Lugo,Kansas City Royals,118,KC,P,Active
+663738,Daniel Lynch IV,Kansas City Royals,118,KC,P,Active
+516782,Starling Marte,Kansas City Royals,118,KC,RF,Active
+686681,Michael Massey,Kansas City Royals,118,KC,2B,Active
+683232,Nick Mears,Kansas City Royals,118,KC,P,Active
+669212,Eli Morgan,Kansas City Royals,118,KC,P,Reassigned to Minors
+686469,Vinnie Pasquantino,Kansas City Royals,118,KC,1B,Active
+521692,Salvador Perez,Kansas City Royals,118,KC,C,Active
+666142,Cole Ragans,Kansas City Royals,118,KC,P,Active
+670167,John Schreiber,Kansas City Royals,118,KC,P,Active
+687765,Mitch Spence,Kansas City Royals,118,KC,P,Reassigned to Minors
+621381,Matt Strahm,Kansas City Royals,118,KC,P,Active
+657041,Lane Thomas,Kansas City Royals,118,KC,CF,Active
+686475,Tyler Tolbert,Kansas City Royals,118,KC,LF,Reassigned to Minors
+608379,Michael Wacha,Kansas City Royals,118,KC,P,Active
+677951,Bobby Witt Jr.,Kansas City Royals,118,KC,SS,Active
+605141,Mookie Betts,Los Angeles Dodgers,119,LAD,SS,Injured 10-Day
+669743,Alex Call,Los Angeles Dodgers,119,LAD,LF,Active
+676508,Ben Casparius,Los Angeles Dodgers,119,LAD,P,Injured 15-Day
+621242,Edwin Díaz,Los Angeles Dodgers,119,LAD,P,Injured 15-Day
+676263,Jack Dreyer,Los Angeles Dodgers,119,LAD,P,Active
+671109,Jake Eder,Los Angeles Dodgers,119,LAD,P,Active
+669289,Santiago Espinal,Los Angeles Dodgers,119,LAD,3B,Active
+690976,Alex Freeland,Los Angeles Dodgers,119,LAD,2B,Active
+518692,Freddie Freeman,Los Angeles Dodgers,119,LAD,1B,Active
+607192,Tyler Glasnow,Los Angeles Dodgers,119,LAD,P,Active
+683618,Edgardo Henriquez,Los Angeles Dodgers,119,LAD,P,Active
+606192,Teoscar Hernández,Los Angeles Dodgers,119,LAD,LF,Active
+669165,Kyle Hurt,Los Angeles Dodgers,119,LAD,P,Active
+808975,Hyeseong Kim,Los Angeles Dodgers,119,LAD,SS,Active
+694361,Will Klein,Los Angeles Dodgers,119,LAD,P,Active
+571970,Max Muncy,Los Angeles Dodgers,119,LAD,3B,Active
+660271,Shohei Ohtani,Los Angeles Dodgers,119,LAD,TWP,Active
+681624,Andy Pages,Los Angeles Dodgers,119,LAD,CF,Active
+500743,Miguel Rojas,Los Angeles Dodgers,119,LAD,SS,Active
+687221,Dalton Rushing,Los Angeles Dodgers,119,LAD,C,Active
+808963,Roki Sasaki,Los Angeles Dodgers,119,LAD,P,Active
+656945,Tanner Scott,Los Angeles Dodgers,119,LAD,P,Active
+686218,Emmet Sheehan,Los Angeles Dodgers,119,LAD,P,Active
+669257,Will Smith,Los Angeles Dodgers,119,LAD,C,Active
+595014,Blake Treinen,Los Angeles Dodgers,119,LAD,P,Active
+663656,Kyle Tucker,Los Angeles Dodgers,119,LAD,RF,Active
+681911,Alex Vesia,Los Angeles Dodgers,119,LAD,P,Active
+669899,Ryan Ward,Los Angeles Dodgers,119,LAD,1B,Reassigned to Minors
+680736,Justin Wrobleski,Los Angeles Dodgers,119,LAD,P,Active
+808967,Yoshinobu Yamamoto,Los Angeles Dodgers,119,LAD,P,Active
+682928,CJ Abrams,Washington Nationals,120,WSH,SS,Active
+690925,Clayton Beeter,Washington Nationals,120,WSH,P,Injured 15-Day
+676917,Cade Cavalli,Washington Nationals,120,WSH,P,Active
+665953,Andrés Chaparro,Washington Nationals,120,WSH,1B,Reassigned to Minors
+683000,Riley Cornelio,Washington Nationals,120,WSH,P,Reassigned to Minors
+642759,Julian Fernández,Washington Nationals,120,WSH,P,Reassigned to Minors
+671277,Luis García Jr.,Washington Nationals,120,WSH,1B,Active
+701552,Andre Granillo,Washington Nationals,120,WSH,P,Active
+656492,Foster Griffin,Washington Nationals,120,WSH,P,Active
+669371,Cole Henry,Washington Nationals,120,WSH,P,Injured 15-Day
+691781,Brady House,Washington Nationals,120,WSH,3B,Active
+663623,Jake Irvin,Washington Nationals,120,WSH,P,Active
+695734,Daylen Lile,Washington Nationals,120,WSH,LF,Active
+641793,Zack Littell,Washington Nationals,120,WSH,P,Active
+695418,Brad Lord,Washington Nationals,120,WSH,P,Active
+663992,Richard Lovelady,Washington Nationals,120,WSH,P,Active
+678554,Curtis Mead,Washington Nationals,120,WSH,1B,Active
+571945,Miles Mikolas,Washington Nationals,120,WSH,P,Active
+686452,Drew Millas,Washington Nationals,120,WSH,C,Active
+683083,Nasim Nuñez,Washington Nationals,120,WSH,2B,Active
+680730,Mitchell Parker,Washington Nationals,120,WSH,P,Active
+672335,Cionel Pérez,Washington Nationals,120,WSH,P,Active
+676571,PJ Poulin,Washington Nationals,120,WSH,P,Active
+687377,Orlando Ribalta,Washington Nationals,120,WSH,P,Reassigned to Minors
+660688,Keibert Ruiz,Washington Nationals,120,WSH,C,Active
+671131,Jackson Rutledge,Washington Nationals,120,WSH,P,Reassigned to Minors
+687606,Paxton Schultz,Washington Nationals,120,WSH,P,Active
+677588,José Tena,Washington Nationals,120,WSH,2B,Active
+681402,Gus Varland,Washington Nationals,120,WSH,P,Active
+678391,Jorbit Vivas,Washington Nationals,120,WSH,3B,Active
+686610,Ken Waldichuk,Washington Nationals,120,WSH,P,Injured 60-Day
+686894,Joey Wiemer,Washington Nationals,120,WSH,RF,Active
+695578,James Wood,Washington Nationals,120,WSH,RF,Active
+696285,Jacob Young,Washington Nationals,120,WSH,CF,Active
+682626,Francisco Alvarez,New York Mets,121,NYM,C,Active
+683146,Brett Baty,New York Mets,121,NYM,RF,Active
+701807,Carson Benge,New York Mets,121,NYM,LF,Active
+666182,Bo Bichette,New York Mets,121,NYM,3B,Active
+623211,Huascar Brazobán,New York Mets,121,NYM,P,Active
+605218,Carl Edwards Jr.,New York Mets,121,NYM,P,Active
+472610,Luis García,New York Mets,121,NYM,P,Released
+680702,Joey Gerber,New York Mets,121,NYM,P,Injured 15-Day
+605280,Clay Holmes,New York Mets,121,NYM,P,Active
+518886,Craig Kimbrel,New York Mets,121,NYM,P,Active
+596019,Francisco Lindor,New York Mets,121,NYM,SS,Injured 10-Day
+663992,Richard Lovelady,New York Mets,121,NYM,P,Traded
+640455,Sean Manaea,New York Mets,121,NYM,P,Active
+677595,Ronny Mauricio,New York Mets,121,NYM,SS,Active
+690997,Nolan McLean,New York Mets,121,NYM,P,Active
+669004,MJ Melendez,New York Mets,121,NYM,LF,Active
+668964,Tobias Myers,New York Mets,121,NYM,P,Active
+642547,Freddy Peralta,New York Mets,121,NYM,P,Active
+656849,David Peterson,New York Mets,121,NYM,P,Active
+502054,Tommy Pham,New York Mets,121,NYM,LF,Designated for Assignment
+548384,Brooks Raley,New York Mets,121,NYM,P,Active
+673357,Luis Robert Jr.,New York Mets,121,NYM,CF,Active
+681035,Christian Scott,New York Mets,121,NYM,P,Active
+543760,Marcus Semien,New York Mets,121,NYM,2B,Active
+673540,Kodai Senga,New York Mets,121,NYM,P,Injured 15-Day
+665742,Juan Soto,New York Mets,121,NYM,LF,Active
+621438,Tyrone Taylor,New York Mets,121,NYM,RF,Active
+620443,Luis Torrens,New York Mets,121,NYM,C,Active
+668901,Mark Vientos,New York Mets,121,NYM,1B,Active
+681810,Austin Warren,New York Mets,121,NYM,P,Reassigned to Minors
+596133,Luke Weaver,New York Mets,121,NYM,P,Active
+642207,Devin Williams,New York Mets,121,NYM,P,Active
+676724,Jared Young,New York Mets,121,NYM,1B,Injured 10-Day
